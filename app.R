@@ -67,7 +67,7 @@ ui <- f7Page(
             id = "tabs",
             style = "toolbar",
             f7Tab(
-                tabName = "Voting information",
+                tabName = "Poll location",
                 icon = f7Icon("envelope"),
                 active = TRUE,
  
@@ -88,7 +88,7 @@ ui <- f7Page(
                 f7Card("other information")
             ),
             f7Tab(
-                tabName = "Upcoming elections",
+                tabName = "Elections",
                 icon = f7Icon("calendar"),
                 active = TRUE,
                 f7Card("upcoming elections")
