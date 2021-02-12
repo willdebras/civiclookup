@@ -67,3 +67,15 @@ body {
     width: 90vw;
     left:5vw;
 }
+
+.auto-break {
+  word-break: break-all;
+}
+
+td {
+  
+  overflow-wrap:break-word;
+  word-wrap:break-word;
+  /*word-break: break-all;*/
+  
+}

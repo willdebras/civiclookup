@@ -92,7 +92,7 @@ ui <- f7Page(
                 p("Type in your address to find name and contact information on all your political representatives.",  style = "margin-left:2vw; margin-right:2vw;"),
                 
                 div(f7Text(inputId = "addy2", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
-                div(uiOutput("repinfo"), style = "margin-left:2vw; margin-right:2vw; text-align:center;")
+                div(uiOutput("repinfo", style = "height:45vh; width:96vw; padding-left:2vw;"), style = "margin-left:2vw; margin-right:2vw; text-align:center;")
             ),
             f7Tab(
                 tabName = "Elections",
@@ -194,21 +194,38 @@ server <- function(input, output, session) {
     
     reps_df <- reactiveVal(NULL)
     
-    output$repsout <- renderDT({
+    output$repsout <- renderDataTable({
       
       datatable(reps_df(),
+                width = "100%",
+                #extensions = 'Scroller', 
                 
                 escape = FALSE,
                 selection = "none",
                   options = list(
-                    
+                    pageLength = 50,
                     scroller = TRUE,
-                    scrollX = TRUE,
+                    scrollX = "100vw",
+                    scrollY = "40vh",
+                    
+                    columnDefs = list(list(width = '12%', targets = c(1, 2)),
+                                      list(width = '6%', targets = 3),
+                                      list(width = '32%', targets = c(4,5))
+                                      ),
+
                     dom = 't',
                     initComplete = JS(
                       "function(settings, json) {",
-                      "$(this.api().table()).css({'font-size': '45%'});",
-                      "}")
+                      "$(this.api().table()).css({'font-size':'50%',
+                                                  'text-align':'left',
+                                                  'word-wrap':'break-word',
+                                                  'overflow-wrap':'break-word'});",
+                      "}"),
+                    
+                    rowCallback = JS("function(nRow, aData, iDisplayIndex, iDisplayIndexFull) {",
+                                     "$('td:eq(4)', nRow).css({'word-break':'break-all'});",
+                                     #"$('td:eq(5)', nRow).css({'word-break':'break-all'});",
+                                     "}")
                     
                   )
                 
@@ -230,7 +247,8 @@ server <- function(input, output, session) {
         office <- splitstackshape::cSplit(reps_query$offices, 'officialIndices', ':', "long")[[1]]
         
         officials_df <- cbind(office, reps_query$officials)[,c("office", "name", "party", "urls", "emails")] %>%
-          dplyr::mutate(urls = paste0("<a href='", urls, "'>", urls, "</a>"))
+          dplyr::mutate(urls = ifelse(!emails=="NULL", paste0("<a href='", urls, "'>", "Link", "</a>"), "NA"),
+                        emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Email", "</a>"), "NA"))
       })
       
       reps_df(officials_df)
@@ -244,14 +262,15 @@ server <- function(input, output, session) {
             
             if(!is.null(reps_df())) {
               
-              DTOutput("repsout")
+              shinyMobile::f7Card(DTOutput("repsout"))
+              
               
               
             }
             
             else {
               
-              div("Could not find representative information for this addreess.")
+              div("Could not find representative information for this address.")
               
             }
             
