@@ -19,6 +19,9 @@ $(document).on("keyup", function(e) {
 
 library(shiny)
 library(shinyMobile)
+library(splitstackshape)
+library(DT)
+library(dplyr)
 
 # Define UI for application that draws a histogram
 ui <- f7Page(
@@ -85,7 +88,11 @@ ui <- f7Page(
                 tabName = "Your Rep",
                 icon = f7Icon("briefcase"),
                 active = TRUE,
-                f7Card("other information")
+                h3("Representative Lookup", style = "margin-left:2vw;"),
+                p("Type in your address to find name and contact information on all your political representatives.",  style = "margin-left:2vw; margin-right:2vw;"),
+                
+                div(f7Text(inputId = "addy2", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
+                div(uiOutput("repinfo"), style = "margin-left:2vw; margin-right:2vw; text-align:center;")
             ),
             f7Tab(
                 tabName = "Elections",
@@ -126,10 +133,7 @@ server <- function(input, output, session) {
               address_query <- NULL
         
               try(
-                
                 address_query <- googlecivic::get_voterinfo(input$addy)
-                
-                
                 )
       
               address(address_query)
@@ -160,12 +164,8 @@ server <- function(input, output, session) {
                     
                     h3(address()$pollingLocations$address[1],
                         br(),
-                        
-                        
                         address()$pollingLocations$address[2]
-                        
                         )
-                      
                     
                     }
                     
@@ -190,6 +190,87 @@ server <- function(input, output, session) {
       
 
         })
+    
+    
+    reps_df <- reactiveVal(NULL)
+    
+    output$repsout <- renderDT({
+      
+      datatable(reps_df(),
+                
+                escape = FALSE,
+                selection = "none",
+                  options = list(
+                    
+                    scroller = TRUE,
+                    scrollX = TRUE,
+                    dom = 't',
+                    initComplete = JS(
+                      "function(settings, json) {",
+                      "$(this.api().table()).css({'font-size': '45%'});",
+                      "}")
+                    
+                  )
+                
+                )
+      
+    })
+    
+    
+    observeEvent(input[["keyPressed"]],{
+      
+      #session$sendCustomMessage("mapInit", "true")
+      
+      
+      officials_df <- NULL
+      
+      try({
+        reps_query <- googlecivic::get_rep_address(input$addy2)
+        
+        office <- splitstackshape::cSplit(reps_query$offices, 'officialIndices', ':', "long")[[1]]
+        
+        officials_df <- cbind(office, reps_query$officials)[,c("office", "name", "party", "urls", "emails")] %>%
+          dplyr::mutate(urls = paste0("<a href='", urls, "'>", urls, "</a>"))
+      })
+      
+      reps_df(officials_df)
+      
+      
+      try (
+        
+        output$repinfo <- renderUI(
+          
+          if(exists("officials_df")) {
+            
+            if(!is.null(reps_df())) {
+              
+              DTOutput("repsout")
+              
+              
+            }
+            
+            else {
+              
+              div("Could not find representative information for this addreess.")
+              
+            }
+            
+            
+          }
+          
+          else {
+            
+            div("Could not validate address. Check spelling, include county/city, state, and zipcode.")
+            
+          }
+          
+        )
+        
+      )  
+      
+      
+    })
+    
   
     # observe({
     # 
@@ -201,6 +282,34 @@ server <- function(input, output, session) {
     # output$testmess <- renderText({
     #   
     #   addressMQ()
+    #   
+    # })
+    
+    observe({
+      if (req(input$tabs) == "Your Rep") {
+        shinyMobile::updateF7Text(session = session,
+                          inputId = "addy2",
+                          value = input$addy)
+      }
+      
+      
+    })
+    
+    
+
+    observe({
+      if (req(input$tabs) == "Poll location") {
+        updateSelectInput(session = session,
+                          inputId = "addy",
+                          selected = input$addy2)
+      }
+      
+      
+    })
+    
+    # observeEvent(input$tabs, {
+    #   
+    #   session$sendCustomMessage("keyUpdate", runif(1))
     #   
     # })
 

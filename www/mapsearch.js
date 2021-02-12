@@ -9,6 +9,12 @@
 //});
 
 
+Shiny.addCustomMessageHandler('keyUpdate', function(rann) {
+  
+  Shiny.onInputChange("keyPressed", rann);
+  
+});
+
 
 
 Shiny.addCustomMessageHandler('addressSanitized', function(addy)  {
