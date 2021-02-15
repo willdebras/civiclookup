@@ -75,8 +75,8 @@ ui <- f7Page(
                 icon = f7Icon("envelope"),
                 active = TRUE,
  
-                    h3("Polling location lookup", style = "margin-left:2vw;"),
-                    p("Type in your address to find information on your voting precinct and polling location.",  style = "margin-left:2vw; margin-right:2vw;"),
+                    h3("Polling location lookup", style = "margin-left:4vw; padding-top:3vh;"),
+                    p("Type in your address to find information on your voting precinct and polling location.",  style = "margin-left:4vw; margin-right:2vw;"),
                 
                 div(f7Text(inputId = "addy", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
                 #br(),
@@ -89,8 +89,8 @@ ui <- f7Page(
                 tabName = "Your Rep",
                 icon = f7Icon("briefcase"),
                 active = TRUE,
-                h3("Representative Lookup", style = "margin-left:2vw;"),
-                p("Type in your address to find name and contact information on all your political representatives.",  style = "margin-left:2vw; margin-right:2vw;"),
+                h3("Representative Lookup", style = "margin-left:4vw; padding-top:3vh;"),
+                p("Type in your address to find name and contact information on all your political representatives.",  style = "margin-left:4vw; margin-right:2vw;"),
                 
                 div(f7Text(inputId = "addy2", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
                 div(uiOutput("repinfo", style = "height:55vh; width:98vw;"), style = "text-align:center;")
