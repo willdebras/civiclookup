@@ -24,6 +24,7 @@ library(DT)
 library(dplyr)
 library(tidyr)
 library(tuicalendr)
+library(googlecivic)
 
 calendar_info <- read.csv("Data/elec_dates_group.csv")
 
