@@ -93,7 +93,7 @@ ui <- f7Page(
                 p("Type in your address to find name and contact information on all your political representatives.",  style = "margin-left:2vw; margin-right:2vw;"),
                 
                 div(f7Text(inputId = "addy2", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
-                div(uiOutput("repinfo", style = "height:45vh; width:96vw; padding-left:2vw;"), style = "margin-left:2vw; margin-right:2vw; text-align:center;")
+                div(uiOutput("repinfo", style = "height:55vh; width:98vw;"), style = "text-align:center;")
             ),
             f7Tab(
                 tabName = "Elections",
@@ -202,6 +202,7 @@ server <- function(input, output, session) {
                 #extensions = 'Scroller', 
                 
                 escape = FALSE,
+                rownames= FALSE,
 
                 selection = "none",
                   options = list(
@@ -220,14 +221,15 @@ server <- function(input, output, session) {
                     dom = 't',
                     initComplete = JS(
                       "function(settings, json) {",
-                      "$(this.api().table().body()).css({'font-size':'70%',
+                      "$(this.api().table().body()).css({'font-size':'80%',
                                                   'text-align':'left',
                                                   'word-wrap':'break-word',
                                                   'overflow-wrap':'break-word'});",
-                      "$(this.api().table().header()).css({'font-size':'70%',
+                      "$(this.api().table().header()).css({'font-size':'90%',
                                                   'text-align':'left',
                                                   'word-wrap':'break-word',
                                                   'overflow-wrap':'break-word'});",
+                      "$('body').find('.dataTables_scrollBody').addClass('scrollbar');",
                       "}"),
                     
                     rowCallback = JS("function(nRow, aData, iDisplayIndex, iDisplayIndexFull) {",
@@ -258,8 +260,8 @@ server <- function(input, output, session) {
         
         
         officials_df <- cbind(office[-1,1], reps_query$officials)[,c("office", "name", "urls", "emails")] %>%
-          dplyr::mutate(urls = ifelse(!emails=="NULL", paste0("<a href='", urls, "'>", "Link", "</a>"), "NA"),
-                        emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Mail", "</a>"), "NA"))
+          dplyr::mutate(urls = ifelse(!emails=="NULL", paste0("<a href='", urls, "'>", "Link", "</a>"), "-"),
+                        emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Mail", "</a>"), "-"))
       })
       
       reps_df(officials_df)

@@ -48,6 +48,8 @@
 .navtitle {
   
   color:purple !important;
+  font-size:18px;
+  letter-spacing: 1.25px;
   
   
 }
@@ -93,4 +95,31 @@ td {
   .dataTables_scrollBody
 {
  overflow-x:hidden !important;
+}
+
+
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+  border-radius:50%;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:5px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.card-content-padding {
+ 
+ padding:0px !important; 
 }
