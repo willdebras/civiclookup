@@ -244,9 +244,12 @@ server <- function(input, output, session) {
       try({
         reps_query <- googlecivic::get_rep_address(input$addy2)
         
-        office <- splitstackshape::cSplit(reps_query$offices, 'officialIndices', ':', "long")[[1]]
+        office <- reps_query$offices %>%
+          tidyr::unnest() %>%
+          `colnames<-`("office")
         
-        officials_df <- cbind(office, reps_query$officials)[,c("office", "name", "party", "urls", "emails")] %>%
+        
+        officials_df <- cbind(office[-1,1], reps_query$officials)[,c("office", "name", "party", "urls", "emails")] %>%
           dplyr::mutate(urls = ifelse(!emails=="NULL", paste0("<a href='", urls, "'>", "Link", "</a>"), "NA"),
                         emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Email", "</a>"), "NA"))
       })
