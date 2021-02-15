@@ -38,5 +38,3 @@ data.table::fwrite(elec_dates1, "Data/elec_dates_full.csv")
 data.table::fwrite(elec_dates2, "Data/elec_dates_group.csv")
 time <- as.POSIXct(Sys.time(), "Etc/GMT+5")
 save(time, file = "Data/time.RData")
-
-ifelse(tolower(TYPE) == "ballot access", "filing", tolower(TYPE))
