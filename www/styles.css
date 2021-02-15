@@ -79,3 +79,18 @@ td {
   /*word-break: break-all;*/
   
 }
+
+  table.dataTable thead th {
+    padding: 4px 5px !important;
+  }
+  
+  
+  table.dataTable thead th {
+    padding: 4px 5px !important;
+  }
+  
+  
+  .dataTables_scrollBody
+{
+ overflow-x:hidden !important;
+}

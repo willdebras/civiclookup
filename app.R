@@ -22,6 +22,7 @@ library(shinyMobile)
 library(splitstackshape)
 library(DT)
 library(dplyr)
+library(tidyr)
 
 # Define UI for application that draws a histogram
 ui <- f7Page(
@@ -201,22 +202,29 @@ server <- function(input, output, session) {
                 #extensions = 'Scroller', 
                 
                 escape = FALSE,
+
                 selection = "none",
                   options = list(
+                    width = "100%",
                     pageLength = 50,
-                    scroller = TRUE,
-                    scrollX = "100vw",
+                    #scroller = TRUE,
+                    scrollX = "90vw",
                     scrollY = "40vh",
+                    ordering=FALSE,
                     
-                    columnDefs = list(list(width = '12%', targets = c(1, 2)),
-                                      list(width = '6%', targets = 3),
-                                      list(width = '32%', targets = c(4,5))
-                                      ),
+                    # columnDefs = list(list(width = '25%', targets = c(1, 2)),
+                    #                   #list(width = '6%', targets = 3),
+                    #                   list(width = '20%', targets = c(3,4))
+                    #                   ),
 
                     dom = 't',
                     initComplete = JS(
                       "function(settings, json) {",
-                      "$(this.api().table()).css({'font-size':'50%',
+                      "$(this.api().table().body()).css({'font-size':'70%',
+                                                  'text-align':'left',
+                                                  'word-wrap':'break-word',
+                                                  'overflow-wrap':'break-word'});",
+                      "$(this.api().table().header()).css({'font-size':'70%',
                                                   'text-align':'left',
                                                   'word-wrap':'break-word',
                                                   'overflow-wrap':'break-word'});",
@@ -249,9 +257,9 @@ server <- function(input, output, session) {
           `colnames<-`("office")
         
         
-        officials_df <- cbind(office[-1,1], reps_query$officials)[,c("office", "name", "party", "urls", "emails")] %>%
+        officials_df <- cbind(office[-1,1], reps_query$officials)[,c("office", "name", "urls", "emails")] %>%
           dplyr::mutate(urls = ifelse(!emails=="NULL", paste0("<a href='", urls, "'>", "Link", "</a>"), "NA"),
-                        emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Email", "</a>"), "NA"))
+                        emails = ifelse(!emails=="NULL", paste0("<a href='mailto:", emails, "'>", "Mail", "</a>"), "NA"))
       })
       
       reps_df(officials_df)
