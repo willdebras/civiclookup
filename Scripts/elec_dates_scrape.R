@@ -10,10 +10,15 @@ page <- rvest::html_table(xml2::read_html(url)
                           , fill = TRUE)
 
 # Data Changes
+
+states <- data.table::data.table(STATE = state.name
+                                 , STATE_ABB = state.abb)
+
 elec_dates1 <- data.table::data.table(page[[4]])[, date_char := gsub(",", "", Date)]
+elec_dates1 <- merge(elec_dates1, states, by.x = "State", by.y = "STATE")
 elec_dates1 <- elec_dates1[i = 2:nrow(elec_dates)
                            , 
-                           j = .(STATE = State
+                           j = .(STATE = STATE_ABB
                                  , DESCRIPTION = Description
                                  , TYPE = Type
                                  , DATE = as.Date(date_char
