@@ -99,7 +99,10 @@ ui <- f7Page(
                 tabName = "Elections",
                 icon = f7Icon("calendar"),
                 active = TRUE,
-                f7Card("upcoming elections")
+                h3("Election Lookup", style = "margin-left:4vw; padding-top:3vh;"),
+                p("Type in your address to find upcoming elections or view the calendar to see dates and deadlines in your state.",  style = "margin-left:4vw; margin-right:2vw;"),
+                div(f7Text(inputId = "addy3", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
+                
             ),
             f7Tab(
                 tabName = "About",
@@ -317,34 +320,62 @@ server <- function(input, output, session) {
     #   
     # })
     
-    observe({
-      if (req(input$tabs) == "Your Rep") {
-        shinyMobile::updateF7Text(session = session,
-                          inputId = "addy2",
-                          value = input$addy)
-      }
+    
+    observeEvent(input$addy, {
       
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy2", 
+                                value = input$addy)
+      
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy3", 
+                                value = input$addy)
       
     })
     
-    
-
-    observe({
-      if (req(input$tabs) == "Poll location") {
-        updateSelectInput(session = session,
-                          inputId = "addy",
-                          selected = input$addy2)
-      }
+    observeEvent(input$addy2, {
       
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy", 
+                                value = input$addy2)
+      
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy3", 
+                                value = input$addy2)
       
     })
     
-    # observeEvent(input$tabs, {
+    observeEvent(input$addy3, {
+      
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy", 
+                                value = input$addy3)
+      
+      shinyMobile::updateF7Text(session = session, 
+                                inputId = "addy2", 
+                                value = input$addy3)
+      
+    })
+    
+    # observe({
+    #   if (req(input$tabs) == "Your Rep") {
+    #     
+    #     
+    #       if (input$addy2=="" & input$addy!="") {
+    #         
+    #         
+    #         shinyMobile::updateF7Text(session = session,
+    #                                   inputId = "addy2",
+    #                                   value = input$addy)
+    #         
+    #       }
+    #       
+    #    }
     #   
-    #   session$sendCustomMessage("keyUpdate", runif(1))
     #   
     # })
-
+    
+    
     
 }
 
