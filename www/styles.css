@@ -123,3 +123,37 @@ td {
  
  padding:0px !important; 
 }
+
+
+.bttn-jelly.bttn-sm {
+    width: 12vw !important;
+    height: 3vh !important;
+    padding: 4px 10px !important;
+    font-size: 10px !important;
+    font-family: inherit !important;
+    margin-left:1.5vw;
+    margin-right:1.5vw;
+}
+
+.tui-full-calendar-month-week-item {
+    position: relative;
+    height:12% !important;
+}
+
+
+.tui-full-calendar-popup {
+  
+  font-weight:400 !important;
+  
+}
+
+.tui-full-calendar-weekday-schedules {
+    font-size: 10px !important;
+}
+
+.tui-full-calendar-month-week-item .tui-full-calendar-weekday-schedule {
+    margin: 0 10px !important;
+    height: 20px !important;
+}
+
+

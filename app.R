@@ -23,6 +23,9 @@ library(splitstackshape)
 library(DT)
 library(dplyr)
 library(tidyr)
+library(tuicalendr)
+
+calendar_info <- read.csv("Data/elec_dates_group.csv")
 
 # Define UI for application that draws a histogram
 ui <- f7Page(
@@ -102,6 +105,7 @@ ui <- f7Page(
                 h3("Election Lookup", style = "margin-left:4vw; padding-top:3vh;"),
                 p("Type in your address to find upcoming elections or view the calendar to see dates and deadlines in your state.",  style = "margin-left:4vw; margin-right:2vw;"),
                 div(f7Text(inputId = "addy3", label = "Your address:", placeholder = "20 S Michigan, Chicago, IL"), style = "width:95%; padding-left:2.5%; "),
+                calendarOutput("calendar", height = "44vh", width = "96vw")
                 
             ),
             f7Tab(
@@ -125,6 +129,10 @@ server <- function(input, output, session) {
   
   addressMQ <- reactiveVal(NULL)
   
+  calendar_reac <- reactiveVal(NULL)
+  
+  state_query <- reactiveVal(NULL)
+  
   
 
     # Tab 1 -- Polling location lookup
@@ -135,6 +143,7 @@ server <- function(input, output, session) {
       
       
               address_query <- NULL
+              state_query <- NULL
         
               try(
                 address_query <- googlecivic::get_voterinfo(input$addy)
@@ -152,8 +161,31 @@ server <- function(input, output, session) {
                   addressMQ(address_compiled)
 
                   session$sendCustomMessage("addressSanitized", addressMQ())
+                  
+                  
+                  election_state <- address()$pollingLocations$address$state
+                  
+                  state_query(election_state)
+                  
+                  
+                  calendar_filter <- calendar_info %>%
+                    dplyr::filter(STATE == state_query()) %>%
+                    dplyr::mutate(title = paste(STATE, TYPE),
+                                  body = paste0(COUNT, "<br>", "<a href='https://ballotpedia.org/Elections_calendar'>", "Click here to find out more.", "</a>"),
+                                  start = as.Date(DATE),
+                                  end = as.Date(DATE),
+                                  calendarId = ifelse(tolower(TYPE) == "ballot access", "filing deadline", "election date"),
+                                  category = "allday"
+                    )
+                  
+                  calendar_reac(calendar_filter)
+                  
+                  
 
                 }
+              
+              
+              
 
       
       
@@ -243,6 +275,15 @@ server <- function(input, output, session) {
                   )
                 
                 )
+      
+    })
+    
+    output$calendar <- renderCalendar({
+      
+      calendar(defaultView = "month", taskView = TRUE, scheduleView = c("time", "allday"), useNav = TRUE) %>% 
+        set_calendars_props(id = "filing deadline", name = "Filing Deadline", color = "white", bgColor = "#800080") %>% 
+        set_calendars_props(id = "election date", name = "Election Date", color = "white", bgColor = "#FFA500") %>%
+        add_schedule_df(calendar_reac())
       
     })
     
