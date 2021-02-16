@@ -113,7 +113,14 @@ ui <- f7Page(
                 tabName = "About",
                 icon = f7Icon("info_circle"),
                 active = TRUE,
-                f7Card("about the app")
+                h3("Election Lookup", style = "margin-left:4vw; padding-top:3vh;"),
+                f7Card(style = "margin-left:4vw; margin-right:4vw;",
+                       p("This Civic Information Lookup app was built to showcase the R package {googlecivic}. It features information gleaned from various functions in the package that wrap the Google Civic Information API.
+                         This app can be used to pull voter information like polling locations, representative information, and upcoming election dates.", style = "padding-top:2vh;"),
+                       p(HTML("To find source code for this open source application, head to <a href='https://github.com/willdebras/civiclookup'>the application github repo</a>. 
+                              If you are interested in more information on the development of the {googlecivic} package, head to <a href='https://github.com/willdebras/googlecivic'>the {googlecivic} github repo</a>.")),
+                       p(HTML("If you have questions, praise, or concerns about the application, feel free to contact the developers <a href='https://twitter.com/_willdebras'>on twitter</a>."), style = "padding-bottom:2vh;")
+                       )
             )
     
         )
