@@ -1,11 +1,11 @@
 name: elec_dates_scrape
 
-# on:
-#   schedule:
-#     - cron:  '0 0 * * 0'
 on:
- push:
-   branches: master
+  schedule:
+    - cron:  '0 0 * * 0'
+# on:
+#  push:
+#    branches: master
 
 jobs:
 
