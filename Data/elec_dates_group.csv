@@ -1,12 +1,12 @@
 STATE,DATE,TYPE,COUNT
 AL,2021-01-26,Ballot access,Three upcoming filing deadlines.
 AL,2021-01-26,General election,One upcoming general election date.
-AL,2021-03-02,Special election,One upcoming special election date.
 AL,2021-03-02,General election,One upcoming general election date.
+AL,2021-03-02,Special election,One upcoming special election date.
 AL,2021-03-09,General runoff election,One upcoming general runoff election date.
-AL,2021-03-30,Ballot access,Two upcoming filing deadlines.
-AL,2021-03-30,Primary election,One upcoming primary election date.
 AL,2021-03-30,Special election,One upcoming special election date.
+AL,2021-03-30,Primary election,One upcoming primary election date.
+AL,2021-03-30,Ballot access,Two upcoming filing deadlines.
 AL,2021-04-13,General runoff election,One upcoming general runoff election date.
 AL,2021-04-27,Special election,One upcoming special election date.
 AL,2021-04-27,Primary runoff election,One upcoming primary runoff election date.
@@ -52,8 +52,8 @@ FL,2021-07-26,Ballot access,One upcoming filing deadline.
 FL,2021-08-24,Primary election,One upcoming primary election date.
 FL,2021-09-17,Ballot access,One upcoming filing deadline.
 FL,2021-09-18,Ballot access,One upcoming filing deadline.
-FL,2021-11-02,General election,Three upcoming general election dates.
 FL,2021-11-02,Primary election,One upcoming primary election date.
+FL,2021-11-02,General election,Three upcoming general election dates.
 FL,2021-11-16,General runoff election,One upcoming general runoff election date.
 FL,2021-11-16,General election,One upcoming general election date.
 FL,2021-12-07,General runoff election,One upcoming general runoff election date.
@@ -91,13 +91,14 @@ LA,2021-11-13,General election,Two upcoming general election dates.
 ME,2021-01-08,Ballot access,One upcoming filing deadline.
 ME,2021-03-09,Special election,One upcoming special election date.
 ME,2021-11-02,Special election,One upcoming special election date.
-ME,2021-11-02,General election,Two upcoming general election dates.
+ME,2021-11-02,General election,One upcoming general election date.
 MD,2021-06-26,Ballot access,One upcoming filing deadline.
 MD,2021-09-21,Primary election,One upcoming primary election date.
 MD,2021-11-02,General election,One upcoming general election date.
 MA,2021-01-26,Ballot access,One upcoming filing deadline.
 MA,2021-03-02,Special election,One upcoming special election date.
 MA,2021-03-30,Special election,One upcoming special election date.
+MA,2021-09-21,Primary election,One upcoming primary election date.
 MA,2021-11-02,General election,One upcoming general election date.
 MI,2021-04-20,Ballot access,Four upcoming filing deadlines.
 MI,2021-08-03,Primary election,Four upcoming primary election dates.
@@ -112,7 +113,7 @@ MO,2021-01-04,Ballot access,One upcoming filing deadline.
 MO,2021-01-19,Ballot access,Ten upcoming filing deadlines.
 MO,2021-01-27,Ballot access,One upcoming filing deadline.
 MO,2021-03-02,Primary election,One upcoming primary election date.
-MO,2021-04-06,General election,Thirteen upcoming general election dates.
+MO,2021-04-06,General election,Fourteen upcoming general election dates.
 MT,2021-06-21,Ballot access,One upcoming filing deadline.
 MT,2021-09-14,Primary election,One upcoming primary election date.
 MT,2021-11-02,General election,One upcoming general election date.
@@ -125,6 +126,8 @@ NE,2021-05-11,General election,One upcoming general election date.
 NH,2021-01-15,Ballot access,One upcoming filing deadline.
 NH,2021-02-23,Special election,One upcoming special election date.
 NH,2021-04-13,Special election,One upcoming special election date.
+NH,2021-04-20,Primary election,One upcoming primary election date.
+NH,2021-06-08,General election,One upcoming general election date.
 NH,2021-09-13,Ballot access,One upcoming filing deadline.
 NH,2021-11-02,General election,One upcoming general election date.
 NJ,2021-04-05,Ballot access,One upcoming filing deadline.
@@ -141,14 +144,13 @@ NY,2021-03-23,Special election,Two upcoming special election dates.
 NY,2021-04-01,Ballot access,One upcoming filing deadline.
 NY,2021-06-22,Primary election,One upcoming primary election date.
 NY,2021-11-02,General election,One upcoming general election date.
-NC,2021-07-23,Ballot access,Two upcoming filing deadlines.
-NC,2021-08-13,Ballot access,Three upcoming filing deadlines.
+NC,2021-08-13,Ballot access,Five upcoming filing deadlines.
 NC,2021-09-14,Primary election,One upcoming primary election date.
 NC,2021-10-05,Primary election,Two upcoming primary election dates.
+NC,2021-10-05,Primary runoff election,One upcoming primary runoff election date.
 NC,2021-10-05,General election,One upcoming general election date.
-NC,2021-10-12,Primary runoff election,One upcoming primary runoff election date.
-NC,2021-11-02,General election,Four upcoming general election dates.
 NC,2021-11-02,General runoff election,One upcoming general runoff election date.
+NC,2021-11-02,General election,Four upcoming general election dates.
 OH,2021-02-03,Ballot access,Four upcoming filing deadlines.
 OH,2021-02-18,Ballot access,One upcoming filing deadline.
 OH,2021-02-23,Recall election,One upcoming recall election date.
@@ -182,7 +184,8 @@ TX,2021-01-23,General election,One upcoming general election date.
 TX,2021-02-12,Ballot access,Sixty-eight upcoming filing deadlines.
 TX,2021-02-23,Special election,One upcoming special election date.
 TX,2021-03-01,Ballot access,One upcoming filing deadline.
-TX,2021-05-01,General election,Sixty-seven upcoming general election dates.
+TX,2021-03-03,Ballot access,One upcoming filing deadline.
+TX,2021-05-01,General election,Sixty-eight upcoming general election dates.
 TX,2021-08-16,Ballot access,Four upcoming filing deadlines.
 TX,2021-11-02,General election,Seven upcoming general election dates.
 UT,2021-06-07,Ballot access,One upcoming filing deadline.
@@ -194,6 +197,7 @@ VA,2021-01-05,Special election,Two upcoming special election dates.
 VA,2021-01-22,Ballot access,One upcoming filing deadline.
 VA,2021-03-23,Special election,One upcoming special election date.
 VA,2021-03-25,Ballot access,One upcoming filing deadline.
+VA,2021-05-08,Primary election,One upcoming primary election date.
 VA,2021-06-08,Primary election,One upcoming primary election date.
 VA,2021-08-13,Ballot access,One upcoming filing deadline.
 VA,2021-11-02,General election,One upcoming general election date.
