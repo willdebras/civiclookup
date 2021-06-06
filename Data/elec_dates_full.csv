@@ -9,8 +9,8 @@ AL,Birmingham City Schools,General runoff election,2021-03-09
 AL,Filing deadline for Alabama State House District 78 special election (major party),Ballot access,2021-03-23
 AL,Alabama State Senate District 14,Special election,2021-03-30
 AL,Deadline for minor party and independent candidates to file for the special general election in Alabama State Senate District 14,Ballot access,2021-03-30
-AL,Alabama House of Representatives District 73,Primary election,2021-03-30
 AL,Third-party filing deadline for Alabama House of Representatives District 73 special election,Ballot access,2021-03-30
+AL,Alabama House of Representatives District 73,Primary election,2021-03-30
 AL,Tuscaloosa City Schools,General runoff election,2021-04-13
 AL,Alabama State Senate District 14,Special election,2021-04-27
 AL,Alabama House of Representatives District 73,Primary runoff election,2021-04-27
@@ -46,14 +46,14 @@ CA,California,Special election,2021-05-04
 CA,Filing deadline for California State Assembly District 18 special election,Ballot access,2021-05-06
 CA,California State Assembly District 54,Primary election,2021-05-18
 CA,Vernon,Recall election,2021-06-01
-CA,Riverside,General election,2021-06-08
 CA,California State Assembly District 79,Special election,2021-06-08
+CA,Riverside,General election,2021-06-08
 CA,California State Assembly District 18,Primary election,2021-06-29
 CA,California State Assembly District 54,Special election,2021-07-20
 CA,Los Angeles County filing deadline,Ballot access,2021-08-06
 CA,California State Assembly District 18,Special election,2021-08-31
-CA,Riverside,General runoff election,2021-11-02
 CA,Los Angeles County,General election,2021-11-02
+CA,Riverside,General runoff election,2021-11-02
 CO,Colorado Springs municipal filing deadline,Ballot access,2021-01-25
 CO,Montezuma-Cortez School District RE-1,Recall election,2021-02-16
 CO,Colorado Springs,General election,2021-04-06
@@ -61,8 +61,8 @@ CO,"Filing deadline for recall election in Westminster, Colorado",Ballot access,
 CO,Westminster,Recall election,2021-07-20
 CO,Aurora municipal filing deadline,Ballot access,2021-08-24
 CO,Colorado general election filing deadline,Ballot access,2021-08-27
-CO,Aurora write-in filing deadline,Ballot access,2021-08-30
 CO,Colorado general election write-in filing deadline,Ballot access,2021-08-30
+CO,Aurora write-in filing deadline,Ballot access,2021-08-30
 CO,Colorado,General election,2021-11-02
 CT,Connecticut State Senate District 27,Special election,2021-03-02
 CT,This is the candidate filing deadline for the terminal election to fill a vacant seat in the Connecticut House of Representatives District 145.,Ballot access,2021-03-22
@@ -72,6 +72,8 @@ DE,Dover municipal filing deadline,Ballot access,2021-02-12
 DE,Dover,General election,2021-04-20
 FL,St. Petersburg municipal filing deadline,Ballot access,2021-06-18
 FL,Hialeah municipal filing deadline,Ballot access,2021-07-26
+FL,Filing via signature petition deadline for Florida's 20th Congressional District special election,Ballot access,2021-08-03
+FL,Filing via qualifying fee deadline for Florida's 20th Congressional District special election,Ballot access,2021-08-10
 FL,St. Petersburg,Primary election,2021-08-24
 FL,Orlando municipal filing deadline,Ballot access,2021-09-17
 FL,Miami municipal filing deadline,Ballot access,2021-09-18
@@ -80,24 +82,24 @@ FL,Hialeah,Primary election,2021-11-02
 FL,Orlando,General election,2021-11-02
 FL,Miami,General election,2021-11-02
 FL,St. Petersburg,General election,2021-11-02
-FL,Miami,General runoff election,2021-11-16
 FL,Hialeah,General election,2021-11-16
+FL,Miami,General runoff election,2021-11-16
 FL,Orlando,General runoff election,2021-12-07
 GA,Georgia,General runoff election,2021-01-05
 GA,Georgia House of Representatives District 90,Primary election,2021-02-09
 GA,Georgia House of Representatives District 90,Primary runoff election,2021-03-09
 GA,Filing deadline for Georgia House of Representatives District 34 special election,Ballot access,2021-05-07
 GA,Filing deadline for Georgia House of Representatives District 156 special election,Ballot access,2021-05-07
-GA,Georgia House of Representatives District 156,Special election,2021-06-15
 GA,Georgia House of Representatives District 34,Special election,2021-06-15
+GA,Georgia House of Representatives District 156,Special election,2021-06-15
 GA,Atlanta municipal filing deadline,Ballot access,2021-08-20
 GA,Atlanta,General election,2021-11-02
 GA,Atlanta,General runoff election,2021-11-30
-ID,Nampa School District,Recall election,2021-03-09
 ID,Hagerman,Recall election,2021-03-09
-ID,Pocatello-Chubbuck School District No. 25,Recall election,2021-03-09
-ID,Plummer,Recall election,2021-03-09
+ID,Nampa School District,Recall election,2021-03-09
 ID,Idaho Falls School District 91,Recall election,2021-03-09
+ID,Plummer,Recall election,2021-03-09
+ID,Pocatello-Chubbuck School District No. 25,Recall election,2021-03-09
 ID,Idaho Falls School District 91,Recall election,2021-05-18
 ID,Nampa School District Board of Trustees Zone 4,Recall election,2021-05-18
 ID,Boise municipal filing deadline,Ballot access,2021-09-03
@@ -112,59 +114,60 @@ IA,Des Moines municipal filing deadline,Ballot access,2021-09-16
 IA,Des Moines,General election,2021-11-02
 IA,Des Moines,General runoff election,2021-11-30
 KS,Circle USD 375,Special election,2021-04-20
-KS,Goddard Unified School District 265 filing deadline,Ballot access,2021-06-01
-KS,Topeka municipal filing deadline,Ballot access,2021-06-01
 KS,Maize Unified School District 266 filing deadline,Ballot access,2021-06-01
-KS,Haysville Unified School District 261 filing deadline,Ballot access,2021-06-01
-KS,Circle Unified School District 375 filing deadline,Ballot access,2021-06-01
-KS,Wichita Public Schools filing deadline,Ballot access,2021-06-01
 KS,Wichita municipal filing deadline,Ballot access,2021-06-01
-KS,Wichita Public Schools,Primary election,2021-08-03
+KS,Circle Unified School District 375 filing deadline,Ballot access,2021-06-01
+KS,Haysville Unified School District 261 filing deadline,Ballot access,2021-06-01
+KS,Topeka municipal filing deadline,Ballot access,2021-06-01
+KS,Wichita Public Schools filing deadline,Ballot access,2021-06-01
+KS,Goddard Unified School District 265 filing deadline,Ballot access,2021-06-01
 KS,Maize USD 266,Primary election,2021-08-03
-KS,Haysville USD 261,Primary election,2021-08-03
 KS,Circle USD 375,Primary election,2021-08-03
 KS,Goddard USD 265,Primary election,2021-08-03
+KS,Haysville USD 261,Primary election,2021-08-03
+KS,Wichita Public Schools,Primary election,2021-08-03
 KS,Wichita,Primary election,2021-08-03
-KS,Circle USD 375,General election,2021-11-02
-KS,Wichita Public Schools,General election,2021-11-02
-KS,Topeka,General election,2021-11-02
 KS,Goddard USD 265,General election,2021-11-02
 KS,Maize USD 266,General election,2021-11-02
-KS,Wichita,General election,2021-11-02
+KS,Wichita Public Schools,General election,2021-11-02
 KS,Haysville USD 261,General election,2021-11-02
+KS,Wichita,General election,2021-11-02
+KS,Topeka,General election,2021-11-02
+KS,Circle USD 375,General election,2021-11-02
 LA,Candidate filing deadline for special election in LA House District 35,Ballot access,2021-01-08
 LA,Filing deadline for Louisiana 2nd Circuit Court of Appeal District 2 special election,Ballot access,2021-01-22
 LA,Filing deadline for Louisiana 2nd Circuit Court of Appeal District 1 special election,Ballot access,2021-01-22
 LA,Filing deadline for Louisiana Board of Elementary and Secondary Education District 4 sepcial election,Ballot access,2021-01-22
 LA,Filing period for special primary election for District 82 in the Louisiana House of Representatives.,Ballot access,2021-01-27
 LA,Louisiana House of Representatives District 35,Special election,2021-02-06
-LA,Louisiana House of Representatives District 82,Primary election,2021-03-20
-LA,Louisiana 2nd Circuit Court of Appeal 2nd District,Special election,2021-03-20
-LA,Louisiana Board of Elementary and Secondary Education District 4,Primary election,2021-03-20
-LA,Louisiana District 5,Special election,2021-03-20
 LA,Louisiana House of Representatives District 35,Special election,2021-03-20
+LA,Louisiana 2nd Circuit Court of Appeal 2nd District,Special election,2021-03-20
+LA,Louisiana District 5,Special election,2021-03-20
 LA,Louisiana 2nd Circuit Court of Appeal 1st District,Special election,2021-03-20
+LA,Louisiana House of Representatives District 82,Primary election,2021-03-20
+LA,Louisiana Board of Elementary and Secondary Education District 4,Primary election,2021-03-20
 LA,Louisiana District 2,Special election,2021-03-20
-LA,Louisiana District 5,Special election,2021-04-24
 LA,Louisiana 2nd Circuit Court of Appeal 2nd District,Special election,2021-04-24
+LA,Louisiana District 5,Special election,2021-04-24
 LA,Louisiana 2nd Circuit Court of Appeal 1st District,Special election,2021-04-24
-LA,Louisiana District 2,Special election,2021-04-24
 LA,Louisiana House of Representatives District 82,Special election,2021-04-24
 LA,Louisiana Board of Elementary and Secondary Education District 4,General election,2021-04-24
+LA,Louisiana District 2,Special election,2021-04-24
 LA,Filing deadline for Louisiana State Senate District 7 special election,Ballot access,2021-05-07
 LA,Louisiana State Senate District 7,Primary election,2021-06-12
 LA,Louisiana State Senate District 7,General election,2021-07-10
-LA,Filing deadline for Caddo Parish Public Schools District 7 special election,Ballot access,2021-07-16
-LA,Filing deadline for the Baton Rouge City Court Division 2A special election,Ballot access,2021-07-16
 LA,New Orleans municipal filing deadline,Ballot access,2021-07-16
+LA,Filing deadline for the Baton Rouge City Court Division 2A special election,Ballot access,2021-07-16
+LA,Filing deadline for Caddo Parish Public Schools District 7 special election,Ballot access,2021-07-16
+LA,Caddo Parish School Board District 7,Special election,2021-10-09
 LA,New Orleans,Primary election,2021-10-09
 LA,Baton Rouge City Court Section 2,Primary election,2021-10-09
-LA,Caddo Parish School Board District 7,Special election,2021-10-09
 LA,New Orleans,General election,2021-11-13
 LA,Baton Rouge City Court Section 2,General election,2021-11-13
 LA,Caddo Parish School Board District 7,Special election,2021-11-13
 ME,Candidate filing deadline for ME SD14 special election.,Ballot access,2021-01-08
 ME,Maine State Senate District 14,Special election,2021-03-09
+ME,Augusta,Special election,2021-06-15
 ME,"Augusta, Maine general election filing deadline",Ballot access,2021-09-03
 ME,Maine,Special election,2021-11-02
 ME,Maine,General election,2021-11-02
@@ -177,72 +180,72 @@ MA,Massachusetts House of Representatives 19th Suffolk District,Special election
 MA,Boston municipal filing deadline,Ballot access,2021-05-18
 MA,Boston,Primary election,2021-09-21
 MA,Boston,General election,2021-11-02
-MI,Detroit municipal filing deadline,Ballot access,2021-04-20
 MI,Lansing municipal filing deadline,Ballot access,2021-04-20
-MI,Special filing deadline for Michigan State Senate District 8,Ballot access,2021-04-20
 MI,Special filing deadline for Michigan State Senate District 28,Ballot access,2021-04-20
-MI,Michigan State Senate District 28,Primary election,2021-08-03
+MI,Special filing deadline for Michigan State Senate District 8,Ballot access,2021-04-20
+MI,Detroit municipal filing deadline,Ballot access,2021-04-20
 MI,Lansing,Primary election,2021-08-03
 MI,Michigan State Senate District 8,Primary election,2021-08-03
+MI,Michigan State Senate District 28,Primary election,2021-08-03
 MI,Detroit,Primary election,2021-08-03
+MI,Lansing,General election,2021-11-02
 MI,Detroit,General election,2021-11-02
 MI,Michigan State Senate District 28,General election,2021-11-02
-MI,Lansing,General election,2021-11-02
 MI,Michigan State Senate District 8,General election,2021-11-02
 MN,St. Paul municipal filing deadline,Ballot access,2021-08-10
+MN,Minneapolis municipal filing deadline,Ballot access,2021-08-10
 MN,Saint Paul Public Schools filing deadline,Ballot access,2021-08-10
 MN,Anoka-Hennepin School District filing deadline,Ballot access,2021-08-10
-MN,Minneapolis municipal filing deadline,Ballot access,2021-08-10
+MN,Saint Paul Public Schools,General election,2021-11-02
 MN,Anoka-Hennepin School District,General election,2021-11-02
 MN,Minneapolis,General election,2021-11-02
-MN,Saint Paul Public Schools,General election,2021-11-02
 MN,St. Paul,General election,2021-11-02
 MS,"Jackson, MS municipal filing deadline",Ballot access,2021-02-06
 MS,Jackson,Primary election,2021-04-06
 MS,Jackson,Primary runoff election,2021-04-27
 MS,Jackson,General election,2021-06-08
 MO,St. Louis municipal filing deadline,Ballot access,2021-01-04
-MO,Center 58 School District filing deadline,Ballot access,2021-01-19
-MO,St. Louis Public Schools filing deadline,Ballot access,2021-01-19
+MO,Platte County R-III School District filing deadline,Ballot access,2021-01-19
+MO,Liberty Public Schools filing deadline,Ballot access,2021-01-19
+MO,Grandview C-4 School District filing deadline,Ballot access,2021-01-19
+MO,St. Joseph School District filing deadline,Ballot access,2021-01-19
 MO,Kansas City Public Schools filing deadline,Ballot access,2021-01-19
 MO,Filing deadline for North Kansas City Schools,Ballot access,2021-01-19
-MO,Jefferson City municipal filing deadline,Ballot access,2021-01-19
-MO,Grandview C-4 School District filing deadline,Ballot access,2021-01-19
-MO,Liberty Public Schools filing deadline,Ballot access,2021-01-19
-MO,St. Joseph School District filing deadline,Ballot access,2021-01-19
+MO,St. Louis Public Schools filing deadline,Ballot access,2021-01-19
 MO,Park Hill School District filing deadline,Ballot access,2021-01-19
-MO,Platte County R-III School District filing deadline,Ballot access,2021-01-19
+MO,Jefferson City municipal filing deadline,Ballot access,2021-01-19
+MO,Center 58 School District filing deadline,Ballot access,2021-01-19
 MO,Special party filing deadline for Missouri House of Representatives District 45,Ballot access,2021-01-27
 MO,St. Louis,Primary election,2021-03-02
-MO,Jefferson City,General election,2021-04-06
+MO,St. Louis Public Schools,General election,2021-04-06
+MO,Center School District,General election,2021-04-06
+MO,St. Joseph School District,General election,2021-04-06
 MO,Raytown C-2 School District,General election,2021-04-06
 MO,St. Louis,General election,2021-04-06
-MO,Kansas City,General election,2021-04-06
-MO,St. Louis Public Schools,General election,2021-04-06
-MO,Park Hill School District,General election,2021-04-06
 MO,Missouri House of Representatives District 45,General election,2021-04-06
-MO,Platte County R-III School District,General election,2021-04-06
-MO,Center School District,General election,2021-04-06
-MO,Grandview C-4 School District,General election,2021-04-06
 MO,Kansas City Public Schools,General election,2021-04-06
-MO,St. Joseph School District,General election,2021-04-06
 MO,North Kansas City Schools,General election,2021-04-06
 MO,Hickman Mills C-1 School District,General election,2021-04-06
+MO,Grandview C-4 School District,General election,2021-04-06
+MO,Park Hill School District,General election,2021-04-06
+MO,Jefferson City,General election,2021-04-06
+MO,Platte County R-III School District,General election,2021-04-06
+MO,Kansas City,General election,2021-04-06
 MT,Helena municipal filing deadline,Ballot access,2021-06-21
 MT,Helena,Primary election,2021-09-14
 MT,Helena,General election,2021-11-02
 NE,Crawford,Recall election,2021-01-05
 NE,Lincoln Public Schools incumbent filing deadline,Ballot access,2021-02-16
 NE,Omaha city council incumbent filing deadline,Ballot access,2021-02-16
-NE,Lincoln Public Schools non-incumbent filing deadline,Ballot access,2021-03-01
 NE,Omaha city council non-incumbent filing deadline,Ballot access,2021-03-01
+NE,Lincoln Public Schools non-incumbent filing deadline,Ballot access,2021-03-01
 NE,Lincoln municipal filing deadline,Ballot access,2021-03-05
 NE,Omaha mayoral filing deadline,Ballot access,2021-03-05
-NE,Omaha,Primary election,2021-04-06
 NE,Lincoln Public Schools,Primary election,2021-04-06
+NE,Omaha,Primary election,2021-04-06
 NE,Lincoln,Primary election,2021-04-06
-NE,Lincoln Public Schools,General election,2021-05-04
 NE,Lincoln,General election,2021-05-04
+NE,Lincoln Public Schools,General election,2021-05-04
 NE,St. Paul,Recall election,2021-05-11
 NE,Omaha,General election,2021-05-11
 NE,Valparaiso,Recall election,2021-07-13
@@ -256,8 +259,8 @@ NH,Concord Ward 4,Special election,2021-07-13
 NH,Manchester School District primary filing deadline,Ballot access,2021-07-23
 NH,Concord municipal filing deadline,Ballot access,2021-09-13
 NH,Manchester School District,Primary election,2021-09-21
-NH,Manchester School District,General election,2021-11-02
 NH,Concord,General election,2021-11-02
+NH,Manchester School District,General election,2021-11-02
 NJ,Filing deadline for New Jersey primary election,Ballot access,2021-04-05
 NJ,Newark Public Schools,General election,2021-04-20
 NJ,New Jersey,Primary election,2021-06-08
@@ -270,13 +273,13 @@ NM,New Mexico District 1,Special election,2021-06-01
 NM,Albuquerque mayoral filing deadline,Ballot access,2021-06-19
 NM,Albuquerque city council filing deadline,Ballot access,2021-07-05
 NM,Santa Fe municipal filing deadline,Ballot access,2021-07-07
-NM,Albuquerque Public Schools filing deadline,Ballot access,2021-08-24
 NM,Bernalillo County filing deadline,Ballot access,2021-08-24
+NM,Albuquerque Public Schools filing deadline,Ballot access,2021-08-24
 NM,Santa Fe,General election,2021-11-02
-NM,Albuquerque Public Schools,General election,2021-11-02
 NM,Bernalillo County,General election,2021-11-02
-NY,Filing deadline for NYC City Council District 11 special election,Ballot access,2021-01-19
+NM,Albuquerque Public Schools,General election,2021-11-02
 NY,Filing deadline for NYC City Council District 15 special election,Ballot access,2021-01-19
+NY,Filing deadline for NYC City Council District 11 special election,Ballot access,2021-01-19
 NY,New York City Council District 15 special filing deadline,Ballot access,2021-01-19
 NY,New York City Council District 11 special filing deadline,Ballot access,2021-01-19
 NY,New York City Council District 24,General election,2021-02-02
@@ -289,182 +292,182 @@ NY,Lackawanna City School District,General election,2021-05-18
 NY,New York,Primary election,2021-06-22
 NY,New York,General election,2021-11-02
 NC,Raleigh municipal filing deadline,Ballot access,2021-08-13
+NC,Durham municipal filing deadline,Ballot access,2021-08-13
+NC,Charlotte-Mecklenburg Schools filing deadline,Ballot access,2021-08-13
 NC,Charlotte municipal filing deadline,Ballot access,2021-08-13
 NC,Greensboro municipal filing deadline,Ballot access,2021-08-13
-NC,Charlotte-Mecklenburg Schools filing deadline,Ballot access,2021-08-13
-NC,Durham municipal filing deadline,Ballot access,2021-08-13
 NC,Charlotte,Primary election,2021-09-14
+NC,Greensboro,Primary election,2021-10-05
+NC,Charlotte,Primary runoff election,2021-10-05
 NC,Raleigh,General election,2021-10-05
 NC,Durham,Primary election,2021-10-05
-NC,Charlotte,Primary runoff election,2021-10-05
-NC,Greensboro,Primary election,2021-10-05
-NC,Raleigh,General runoff election,2021-11-02
 NC,Durham,General election,2021-11-02
-NC,Charlotte,General election,2021-11-02
+NC,Raleigh,General runoff election,2021-11-02
 NC,Charlotte-Mecklenburg Schools,General election,2021-11-02
 NC,Greensboro,General election,2021-11-02
+NC,Charlotte,General election,2021-11-02
 ND,Horace,Recall election,2021-03-09
+OH,Columbus City Schools filing deadline,Ballot access,2021-02-03
 OH,Franklin County filing deadline,Ballot access,2021-02-03
 OH,Cincinnati filing deadline,Ballot access,2021-02-03
-OH,Columbus City Schools filing deadline,Ballot access,2021-02-03
 OH,Columbus municipal filing deadline,Ballot access,2021-02-03
 OH,Cincinnati mayoral primary filing deadline,Ballot access,2021-02-18
 OH,Woodmere,Recall election,2021-02-23
-OH,Columbus City Schools,Primary election,2021-05-04
 OH,Cincinnati,Primary election,2021-05-04
+OH,Columbus City Schools,Primary election,2021-05-04
 OH,Franklin County,Primary election,2021-05-04
 OH,Ohio's 11th Congressional District special election filing deadline,Ballot access,2021-05-05
 OH,Newton Falls,Recall election,2021-05-25
 OH,Newton Falls City Council Ward 4,Recall election,2021-06-01
 OH,Cleveland municipal filing deadline,Ballot access,2021-06-16
 OH,Toledo municipal filing deadline,Ballot access,2021-07-16
-OH,Ohio District 15,Special election,2021-08-03
 OH,Ohio District 11,Special election,2021-08-03
+OH,Ohio District 15,Special election,2021-08-03
+OH,Gahanna-Jefferson City School District regular filing deadline,Ballot access,2021-08-04
+OH,Maumee City School District filing deadline,Ballot access,2021-08-04
+OH,Washington Local School District filing deadline,Ballot access,2021-08-04
+OH,South-Western City Schools regular filing deadline,Ballot access,2021-08-04
+OH,Canal Winchester Local School District regular filing deadline,Ballot access,2021-08-04
+OH,Toledo Public Schools filing deadline,Ballot access,2021-08-04
 OH,Pickerington Local School District regular filing deadline,Ballot access,2021-08-04
+OH,Olentangy Local School District regular filing deadline,Ballot access,2021-08-04
+OH,Dublin City Schools regular filing deadline,Ballot access,2021-08-04
+OH,Berea City School District regular filing deadline,Ballot access,2021-08-04
+OH,Sylvania City School District filing deadline,Ballot access,2021-08-04
+OH,Hilliard City Schools regular filing deadline,Ballot access,2021-08-04
+OH,New Albany-Plain Local School District regular filing deadline,Ballot access,2021-08-04
+OH,Euclid City School District regular filing deadline,Ballot access,2021-08-04
+OH,Hamilton Local School District regular filing deadline,Ballot access,2021-08-04
 OH,Cleveland Metropolitan School District regular filing deadline,Ballot access,2021-08-04
 OH,Cincinnati Public Schools regular filing deadline,Ballot access,2021-08-04
 OH,Groveport-Madison Local School District regular filing deadline,Ballot access,2021-08-04
-OH,Toledo Public Schools filing deadline,Ballot access,2021-08-04
-OH,Hamilton Local School District regular filing deadline,Ballot access,2021-08-04
-OH,Olentangy Local School District regular filing deadline,Ballot access,2021-08-04
 OH,Worthington Schools regular filing deadline,Ballot access,2021-08-04
-OH,Canal Winchester Local School District regular filing deadline,Ballot access,2021-08-04
-OH,Dublin City Schools regular filing deadline,Ballot access,2021-08-04
-OH,South-Western City Schools regular filing deadline,Ballot access,2021-08-04
-OH,Gahanna-Jefferson City School District regular filing deadline,Ballot access,2021-08-04
-OH,Berea City School District regular filing deadline,Ballot access,2021-08-04
-OH,Sylvania City School District filing deadline,Ballot access,2021-08-04
-OH,Washington Local School District filing deadline,Ballot access,2021-08-04
-OH,Maumee City School District filing deadline,Ballot access,2021-08-04
 OH,Westerville City School District regular filing deadline,Ballot access,2021-08-04
-OH,Hilliard City Schools regular filing deadline,Ballot access,2021-08-04
-OH,Euclid City School District regular filing deadline,Ballot access,2021-08-04
-OH,New Albany-Plain Local School District regular filing deadline,Ballot access,2021-08-04
 OH,Cincinnati city council filing deadline,Ballot access,2021-08-19
-OH,Gahanna-Jefferson City School District write-in filing deadline,Ballot access,2021-08-23
-OH,Pickerington Local School District write-in filing deadline,Ballot access,2021-08-23
-OH,New Albany-Plain Local School District write-in filing deadline,Ballot access,2021-08-23
+OH,Cleveland Metropolitan School District write-in filing deadline,Ballot access,2021-08-23
+OH,Westerville City School District write-in filing deadline,Ballot access,2021-08-23
+OH,Berea City School District write-in filing deadline,Ballot access,2021-08-23
 OH,Hamilton Local School District write-in filing deadline,Ballot access,2021-08-23
-OH,Dublin City Schools write-in filing deadline,Ballot access,2021-08-23
 OH,Euclid City School District write-in filing deadline,Ballot access,2021-08-23
 OH,Hilliard City Schools write-in filing deadline,Ballot access,2021-08-23
+OH,New Albany-Plain Local School District write-in filing deadline,Ballot access,2021-08-23
+OH,Pickerington Local School District write-in filing deadline,Ballot access,2021-08-23
 OH,Olentangy Local School District write-in filing deadline,Ballot access,2021-08-23
-OH,Canal Winchester Local School District write-in filing deadline,Ballot access,2021-08-23
-OH,Westerville City School District write-in filing deadline,Ballot access,2021-08-23
 OH,South-Western City Schools write-in filing deadline,Ballot access,2021-08-23
-OH,Groveport-Madison Local School District write-in filing deadline,Ballot access,2021-08-23
-OH,Cleveland Metropolitan School District write-in filing deadline,Ballot access,2021-08-23
-OH,Berea City School District write-in filing deadline,Ballot access,2021-08-23
+OH,Gahanna-Jefferson City School District write-in filing deadline,Ballot access,2021-08-23
 OH,Worthington Schools write-in filing deadline,Ballot access,2021-08-23
+OH,Dublin City Schools write-in filing deadline,Ballot access,2021-08-23
+OH,Groveport-Madison Local School District write-in filing deadline,Ballot access,2021-08-23
+OH,Canal Winchester Local School District write-in filing deadline,Ballot access,2021-08-23
 OH,Toledo,Primary election,2021-09-14
 OH,Cleveland,Primary election,2021-09-14
-OH,Gahanna-Jefferson City School District,General election,2021-11-02
-OH,Hamilton Local School District,General election,2021-11-02
-OH,Maumee City School District,General election,2021-11-02
-OH,Olentangy Local School District,General election,2021-11-02
-OH,Worthington Schools,General election,2021-11-02
+OH,Westerville City School District,General election,2021-11-02
+OH,Washington Local School District,General election,2021-11-02
 OH,Berea City School District,General election,2021-11-02
+OH,Columbus City Schools,General election,2021-11-02
+OH,Cleveland Metropolitan School District,General election,2021-11-02
+OH,Groveport-Madison Local School District,General election,2021-11-02
+OH,Gahanna-Jefferson City School District,General election,2021-11-02
+OH,Ohio,Special election,2021-11-02
+OH,Toledo Public Schools,General election,2021-11-02
+OH,Sylvania City School District,General election,2021-11-02
+OH,Worthington Schools,General election,2021-11-02
 OH,Cincinnati Public Schools,General election,2021-11-02
 OH,New Albany-Plain Local School District,General election,2021-11-02
-OH,Sylvania City School District,General election,2021-11-02
-OH,Toledo Public Schools,General election,2021-11-02
-OH,Ohio,Special election,2021-11-02
-OH,Euclid City School District,General election,2021-11-02
-OH,Hilliard City Schools,General election,2021-11-02
-OH,Cincinnati,General election,2021-11-02
-OH,Washington Local School District,General election,2021-11-02
 OH,Canal Winchester Local School District,General election,2021-11-02
-OH,Franklin County,General election,2021-11-02
-OH,Dublin City Schools,General election,2021-11-02
-OH,Pickerington Local School District,General election,2021-11-02
-OH,Cleveland,General election,2021-11-02
 OH,South-Western City Schools,General election,2021-11-02
-OH,Groveport-Madison Local School District,General election,2021-11-02
-OH,Westerville City School District,General election,2021-11-02
-OH,Columbus City Schools,General election,2021-11-02
+OH,Euclid City School District,General election,2021-11-02
+OH,Pickerington Local School District,General election,2021-11-02
+OH,Dublin City Schools,General election,2021-11-02
+OH,Maumee City School District,General election,2021-11-02
+OH,Cleveland,General election,2021-11-02
 OH,Toledo,General election,2021-11-02
-OH,Cleveland Metropolitan School District,General election,2021-11-02
-OK,Tulsa County,Special election,2021-02-09
-OK,Moore Public Schools,Primary election,2021-02-09
+OH,Cincinnati,General election,2021-11-02
+OH,Franklin County,General election,2021-11-02
+OH,Hamilton Local School District,General election,2021-11-02
+OH,Hilliard City Schools,General election,2021-11-02
+OH,Olentangy Local School District,General election,2021-11-02
+OK,Deer Creek Public Schools,Primary election,2021-02-09
+OK,Crutcho Public Schools,Primary election,2021-02-09
 OK,Bixby Public Schools,Primary election,2021-02-09
 OK,Tulsa Public Schools,Primary election,2021-02-09
-OK,Mustang Public Schools,Primary election,2021-02-09
-OK,Jones Public Schools,Primary election,2021-02-09
-OK,Oakdale Public School,Primary election,2021-02-09
-OK,Oklahoma City Public Schools,Primary election,2021-02-09
-OK,Midwest City-Del City Schools,Primary election,2021-02-09
-OK,Crutcho Public Schools,Primary election,2021-02-09
-OK,Union Public Schools,Primary election,2021-02-09
-OK,Owasso Public Schools,Primary election,2021-02-09
-OK,Catoosa Public Schools,Primary election,2021-02-09
-OK,Deer Creek Public Schools,Primary election,2021-02-09
-OK,Crooked Oak Public Schools,Primary election,2021-02-09
-OK,Yukon Public Schools,Primary election,2021-02-09
-OK,Banner School District,Primary election,2021-02-09
 OK,Little Axe Public Schools,Primary election,2021-02-09
+OK,Banner School District,Primary election,2021-02-09
+OK,Putnam City Schools,Primary election,2021-02-09
+OK,Millwood Public Schools,Primary election,2021-02-09
+OK,Western Heights Public Schools,Primary election,2021-02-09
+OK,Moore Public Schools,Primary election,2021-02-09
+OK,Catoosa Public Schools,Primary election,2021-02-09
+OK,Yukon Public Schools,Primary election,2021-02-09
+OK,Union Public Schools,Primary election,2021-02-09
+OK,Tulsa County,Special election,2021-02-09
+OK,Mustang Public Schools,Primary election,2021-02-09
 OK,Oklahoma State Senate District 22,Special election,2021-02-09
-OK,Jenks Public Schools,Primary election,2021-02-09
-OK,Broken Arrow Public Schools,Primary election,2021-02-09
-OK,Luther Public Schools,Primary election,2021-02-09
 OK,Piedmont Public Schools,Primary election,2021-02-09
 OK,Edmond Public Schools,Primary election,2021-02-09
-OK,Millwood Public Schools,Primary election,2021-02-09
-OK,Putnam City Schools,Primary election,2021-02-09
+OK,Broken Arrow Public Schools,Primary election,2021-02-09
+OK,Crooked Oak Public Schools,Primary election,2021-02-09
+OK,Oakdale Public School,Primary election,2021-02-09
+OK,Jones Public Schools,Primary election,2021-02-09
 OK,Oklahoma City,Primary election,2021-02-09
 OK,McLoud Public Schools,Primary election,2021-02-09
-OK,Western Heights Public Schools,Primary election,2021-02-09
-OK,Tulsa County,Special election,2021-04-06
-OK,Owasso Public Schools,General election,2021-04-06
+OK,Midwest City-Del City Schools,Primary election,2021-02-09
+OK,Oklahoma City Public Schools,Primary election,2021-02-09
+OK,Jenks Public Schools,Primary election,2021-02-09
+OK,Luther Public Schools,Primary election,2021-02-09
+OK,Owasso Public Schools,Primary election,2021-02-09
+OK,Bixby Public Schools,General election,2021-04-06
+OK,Banner School District,General election,2021-04-06
+OK,Union Public Schools,General election,2021-04-06
+OK,McLoud Public Schools,General election,2021-04-06
 OK,Luther Public Schools,General election,2021-04-06
-OK,Jones Public Schools,General election,2021-04-06
-OK,Oakdale Public School,General election,2021-04-06
-OK,Crutcho Public Schools,General election,2021-04-06
-OK,Moore Public Schools,General election,2021-04-06
 OK,Oklahoma State Senate District 22,Special election,2021-04-06
+OK,Tulsa County,Special election,2021-04-06
+OK,Crutcho Public Schools,General election,2021-04-06
+OK,Tulsa Public Schools,General election,2021-04-06
 OK,Edmond Public Schools,General election,2021-04-06
-OK,Oklahoma City Public Schools,General election,2021-04-06
 OK,Midwest City-Del City Schools,General election,2021-04-06
-OK,Putnam City Schools,General election,2021-04-06
 OK,Piedmont Public Schools,General election,2021-04-06
 OK,Little Axe Public Schools,General election,2021-04-06
 OK,Catoosa Public Schools,General election,2021-04-06
-OK,Oklahoma City,General election,2021-04-06
-OK,Jenks Public Schools,General election,2021-04-06
-OK,McLoud Public Schools,General election,2021-04-06
-OK,Crooked Oak Public Schools,General election,2021-04-06
-OK,Bixby Public Schools,General election,2021-04-06
-OK,Yukon Public Schools,General election,2021-04-06
-OK,Millwood Public Schools,General election,2021-04-06
 OK,Mustang Public Schools,General election,2021-04-06
-OK,Union Public Schools,General election,2021-04-06
+OK,Millwood Public Schools,General election,2021-04-06
+OK,Oklahoma City,General election,2021-04-06
+OK,Oakdale Public School,General election,2021-04-06
+OK,Crooked Oak Public Schools,General election,2021-04-06
+OK,Putnam City Schools,General election,2021-04-06
+OK,Jones Public Schools,General election,2021-04-06
+OK,Oklahoma City Public Schools,General election,2021-04-06
+OK,Western Heights Public Schools,General election,2021-04-06
+OK,Yukon Public Schools,General election,2021-04-06
+OK,Moore Public Schools,General election,2021-04-06
+OK,Owasso Public Schools,General election,2021-04-06
+OK,Jenks Public Schools,General election,2021-04-06
 OK,Deer Creek Public Schools,General election,2021-04-06
 OK,Broken Arrow Public Schools,General election,2021-04-06
-OK,Tulsa Public Schools,General election,2021-04-06
-OK,Banner School District,General election,2021-04-06
-OK,Western Heights Public Schools,General election,2021-04-06
 OK,Edmond Public Schools,Special election,2021-05-11
+OR,Salem-Keizer Public Schools filing deadline,Ballot access,2021-03-18
 OR,Portland School District 1J filing deadline,Ballot access,2021-03-18
-OR,Parkrose School District 3 filing deadline,Ballot access,2021-03-18
 OR,Beaverton School District filing deadline,Ballot access,2021-03-18
 OR,Centennial School District 28J filing deadline,Ballot access,2021-03-18
-OR,David Douglas School District filing deadline,Ballot access,2021-03-18
 OR,Reynolds School District 7 filing deadline,Ballot access,2021-03-18
-OR,Scappoose School District 1J filing deadline,Ballot access,2021-03-18
-OR,Salem-Keizer Public Schools filing deadline,Ballot access,2021-03-18
 OR,Multnomah County filing deadline,Ballot access,2021-03-18
+OR,David Douglas School District filing deadline,Ballot access,2021-03-18
+OR,Scappoose School District 1J filing deadline,Ballot access,2021-03-18
+OR,Parkrose School District 3 filing deadline,Ballot access,2021-03-18
+OR,Reynolds School District,General election,2021-05-18
+OR,Multnomah County,General election,2021-05-18
+OR,Portland Public Schools,General election,2021-05-18
+OR,Parkrose School District,General election,2021-05-18
+OR,Salem-Keizer Public Schools,General election,2021-05-18
+OR,David Douglas School District,General election,2021-05-18
 OR,Scappoose School District,General election,2021-05-18
 OR,Beaverton School District,General election,2021-05-18
-OR,Portland Public Schools,General election,2021-05-18
-OR,Multnomah County,General election,2021-05-18
 OR,Centennial School District,General election,2021-05-18
-OR,Parkrose School District,General election,2021-05-18
-OR,David Douglas School District,General election,2021-05-18
-OR,Reynolds School District,General election,2021-05-18
-OR,Salem-Keizer Public Schools,General election,2021-05-18
 PA,Philadelphia judical retention filing deadline,Ballot access,2021-01-04
 PA,Pittsburgh Public Schools primary filing deadline,Ballot access,2021-03-09
-PA,Filing deadline for Pennsylvania primary election,Ballot access,2021-03-09
 PA,Philadelphia municipal filing deadline,Ballot access,2021-03-09
+PA,Filing deadline for Pennsylvania primary election,Ballot access,2021-03-09
 PA,Filing deadline for Pennsylvania state legislative special elections,Ballot access,2021-03-29
 PA,Pennsylvania,Primary election,2021-05-18
 PA,Philadelphia independent filing deadline,Ballot access,2021-08-02
@@ -480,227 +483,229 @@ SC,Columbia,General runoff election,2021-11-16
 SD,Pierre,General election,2021-06-08
 TX,Special filing deadline for Texas House District 68,Ballot access,2021-01-04
 TX,Texas House of Representatives District 68,General election,2021-01-23
-TX,Crowley Independent School District filing deadline,Ballot access,2021-02-12
-TX,Dallas Independent School District filing deadline,Ballot access,2021-02-12
-TX,Spring Branch Independent School District filing deadline,Ballot access,2021-02-12
-TX,Plano municipal filing deadline,Ballot access,2021-02-12
-TX,Killeen Independent School District filing deadline,Ballot access,2021-02-12
-TX,Castleberry Independent School District filing deadline,Ballot access,2021-02-12
-TX,Garland Independent School District filing deadline,Ballot access,2021-02-12
-TX,Eagle Mountain-Saginaw Independent School District filing deadline,Ballot access,2021-02-12
-TX,Grand Prairie Independent School District filing deadline,Ballot access,2021-02-12
-TX,Irving municipal filing deadline,Ballot access,2021-02-12
-TX,Burleson Independent School District filing deadline,Ballot access,2021-02-12
-TX,Frisco Independent School District filing deadline,Ballot access,2021-02-12
-TX,Lake Worth Independent School District filing deadline,Ballot access,2021-02-12
-TX,Plano Independent School District filing deadline,Ballot access,2021-02-12
-TX,San Antonio Independent School District filing deadline,Ballot access,2021-02-12
-TX,Rockwall Independent School District filing deadline,Ballot access,2021-02-12
-TX,Amarillo Independent School District filing deadline,Ballot access,2021-02-12
-TX,Socorro Independent School District filing deadline,Ballot access,2021-02-12
-TX,Pasadena Independent School District filing deadline,Ballot access,2021-02-12
-TX,Hays Consolidated Independent School District filing deadline,Ballot access,2021-02-12
-TX,Spring Independent School District filing deadline,Ballot access,2021-02-12
-TX,Hurst-Euless-Bedford Independent School District filing deadline,Ballot access,2021-02-12
-TX,Northwest Independent School District filing deadline,Ballot access,2021-02-12
-TX,El Paso County filing deadline,Ballot access,2021-02-12
-TX,Arlington Independent School District filing deadline,Ballot access,2021-02-12
-TX,Mansfield Independent School District filing deadline,Ballot access,2021-02-12
-TX,Keller Independent School District filing deadline,Ballot access,2021-02-12
-TX,Port Aransas Independent School District filing deadline,Ballot access,2021-02-12
-TX,Klein Independent School District filing deadline,Ballot access,2021-02-12
-TX,Northside Independent School District filing deadline,Ballot access,2021-02-12
-TX,Southside Independent School District filing deadline,Ballot access,2021-02-12
-TX,Aransas County Independent School District filing deadline,Ballot access,2021-02-12
-TX,Tarrant County filing deadline,Ballot access,2021-02-12
-TX,Forney Independent School District filing deadline,Ballot access,2021-02-12
-TX,Dallas municipal filing deadline,Ballot access,2021-02-12
-TX,Highland Park Independent School District filing deadline,Ballot access,2021-02-12
-TX,Pflugerville Independent School District filing deadline,Ballot access,2021-02-12
-TX,San Antonio municipal filing deadline,Ballot access,2021-02-12
-TX,Carrollton-Farmers Branch Independent School District filing deadline,Ballot access,2021-02-12
 TX,Everman Independent School District filing deadline,Ballot access,2021-02-12
-TX,Galena Park Independent School District filing deadline,Ballot access,2021-02-12
-TX,Ysleta Independent School District filing deadline,Ballot access,2021-02-12
-TX,Mesquite Independent School District filing deadline,Ballot access,2021-02-12
-TX,Roosevelt Independent School District filing deadline,Ballot access,2021-02-12
+TX,Crowley Independent School District filing deadline,Ballot access,2021-02-12
+TX,Irving municipal filing deadline,Ballot access,2021-02-12
+TX,Northside Independent School District filing deadline,Ballot access,2021-02-12
+TX,Hays Consolidated Independent School District filing deadline,Ballot access,2021-02-12
+TX,Port Aransas Independent School District filing deadline,Ballot access,2021-02-12
+TX,Keller Independent School District filing deadline,Ballot access,2021-02-12
+TX,Tarrant County filing deadline,Ballot access,2021-02-12
+TX,Pasadena Independent School District filing deadline,Ballot access,2021-02-12
+TX,Plano Independent School District filing deadline,Ballot access,2021-02-12
+TX,Lake Worth Independent School District filing deadline,Ballot access,2021-02-12
+TX,Rockwall Independent School District filing deadline,Ballot access,2021-02-12
+TX,Spring Independent School District filing deadline,Ballot access,2021-02-12
+TX,Grand Prairie Independent School District filing deadline,Ballot access,2021-02-12
+TX,Amarillo Independent School District filing deadline,Ballot access,2021-02-12
 TX,Lancaster Independent School District filing deadline,Ballot access,2021-02-12
-TX,Frenship Independent School District filing deadline,Ballot access,2021-02-12
-TX,Katy Independent School District filing deadline,Ballot access,2021-02-12
-TX,Coppell Independent School District filing deadline,Ballot access,2021-02-12
+TX,Highland Park Independent School District filing deadline,Ballot access,2021-02-12
+TX,Mansfield Independent School District filing deadline,Ballot access,2021-02-12
+TX,Frisco Independent School District filing deadline,Ballot access,2021-02-12
+TX,Spring Branch Independent School District filing deadline,Ballot access,2021-02-12
 TX,Richardson Independent School District filing deadline,Ballot access,2021-02-12
-TX,Kennedale Independent School District filing deadline,Ballot access,2021-02-12
+TX,Dallas municipal filing deadline,Ballot access,2021-02-12
 TX,El Paso Independent School District filing deadline,Ballot access,2021-02-12
-TX,Alamo Heights Independent School District filing deadline,Ballot access,2021-02-12
-TX,Collin County filing deadline,Ballot access,2021-02-12
-TX,Allen Independent School District filing deadline,Ballot access,2021-02-12
-TX,New Deal Independent School District filing deadline,Ballot access,2021-02-12
-TX,Garland municipal filing deadline,Ballot access,2021-02-12
-TX,Humble Independent School District filing deadline,Ballot access,2021-02-12
-TX,Clear Creek Independent School District filing deadline,Ballot access,2021-02-12
-TX,Fort Bend Independent School District filing deadline,Ballot access,2021-02-12
-TX,Judson Independent School District filing deadline,Ballot access,2021-02-12
-TX,Fort Worth Independent School District filing deadline,Ballot access,2021-02-12
-TX,Duncanville Independent School Districtfiling deadline,Ballot access,2021-02-12
-TX,Harlandale Independent School District filing deadline,Ballot access,2021-02-12
-TX,Irving Independent School District filing deadline,Ballot access,2021-02-12
 TX,Lewisville Independent School District filing deadline,Ballot access,2021-02-12
+TX,Duncanville Independent School Districtfiling deadline,Ballot access,2021-02-12
+TX,Alamo Heights Independent School District filing deadline,Ballot access,2021-02-12
+TX,Coppell Independent School District filing deadline,Ballot access,2021-02-12
+TX,Judson Independent School District filing deadline,Ballot access,2021-02-12
+TX,Kennedale Independent School District filing deadline,Ballot access,2021-02-12
+TX,Eagle Mountain-Saginaw Independent School District filing deadline,Ballot access,2021-02-12
+TX,Southside Independent School District filing deadline,Ballot access,2021-02-12
+TX,Klein Independent School District filing deadline,Ballot access,2021-02-12
+TX,Forney Independent School District filing deadline,Ballot access,2021-02-12
+TX,Fort Bend Independent School District filing deadline,Ballot access,2021-02-12
+TX,Aransas County Independent School District filing deadline,Ballot access,2021-02-12
+TX,New Deal Independent School District filing deadline,Ballot access,2021-02-12
+TX,Collin County filing deadline,Ballot access,2021-02-12
+TX,Garland municipal filing deadline,Ballot access,2021-02-12
+TX,Clear Creek Independent School District filing deadline,Ballot access,2021-02-12
+TX,Arlington Independent School District filing deadline,Ballot access,2021-02-12
+TX,El Paso County filing deadline,Ballot access,2021-02-12
+TX,Northwest Independent School District filing deadline,Ballot access,2021-02-12
+TX,Fort Worth Independent School District filing deadline,Ballot access,2021-02-12
+TX,Burleson Independent School District filing deadline,Ballot access,2021-02-12
+TX,Socorro Independent School District filing deadline,Ballot access,2021-02-12
+TX,Castleberry Independent School District filing deadline,Ballot access,2021-02-12
+TX,Allen Independent School District filing deadline,Ballot access,2021-02-12
+TX,Katy Independent School District filing deadline,Ballot access,2021-02-12
+TX,Plano municipal filing deadline,Ballot access,2021-02-12
+TX,San Antonio Independent School District filing deadline,Ballot access,2021-02-12
 TX,Ector County Independent School District filing deadline,Ballot access,2021-02-12
+TX,Dallas Independent School District filing deadline,Ballot access,2021-02-12
+TX,Ysleta Independent School District filing deadline,Ballot access,2021-02-12
+TX,Hurst-Euless-Bedford Independent School District filing deadline,Ballot access,2021-02-12
+TX,Pflugerville Independent School District filing deadline,Ballot access,2021-02-12
+TX,Killeen Independent School District filing deadline,Ballot access,2021-02-12
+TX,Irving Independent School District filing deadline,Ballot access,2021-02-12
+TX,San Antonio municipal filing deadline,Ballot access,2021-02-12
+TX,Harlandale Independent School District filing deadline,Ballot access,2021-02-12
+TX,Carrollton-Farmers Branch Independent School District filing deadline,Ballot access,2021-02-12
+TX,Galena Park Independent School District filing deadline,Ballot access,2021-02-12
+TX,Roosevelt Independent School District filing deadline,Ballot access,2021-02-12
+TX,Humble Independent School District filing deadline,Ballot access,2021-02-12
 TX,Southwest Independent School District filing deadline,Ballot access,2021-02-12
+TX,Mesquite Independent School District filing deadline,Ballot access,2021-02-12
+TX,Frenship Independent School District filing deadline,Ballot access,2021-02-12
+TX,Garland Independent School District filing deadline,Ballot access,2021-02-12
 TX,Texas House of Representatives District 68,Special election,2021-02-23
 TX,Filing deadline for Plano City Council District 7 special election,Ballot access,2021-03-01
 TX,Special filing deadline in Texas' 6th Congressional District,Ballot access,2021-03-03
 TX,Tuloso-Midway ISD Place 7 general special election filing deadline,Ballot access,2021-03-22
-TX,Coppell Independent School District,General election,2021-05-01
-TX,Katy Independent School District,General election,2021-05-01
+TX,Austin,Special election,2021-05-01
+TX,Dallas,General election,2021-05-01
+TX,Garland,General election,2021-05-01
+TX,Collin County,General election,2021-05-01
+TX,San Antonio Independent School District,General election,2021-05-01
+TX,Tuloso-Midway Independent School District,General election,2021-05-01
+TX,El Paso Independent School District,General election,2021-05-01
+TX,Rockwall Independent School District,General election,2021-05-01
+TX,Fort Bend Independent School District,General election,2021-05-01
+TX,Richardson Independent School District,General election,2021-05-01
+TX,Spring Branch Independent School District,General election,2021-05-01
+TX,Dallas Independent School District,General election,2021-05-01
+TX,Harlandale Independent School District,General election,2021-05-01
+TX,Southside Independent School District,General election,2021-05-01
+TX,Fort Worth (Full and Limited),General election,2021-05-01
+TX,Ector County Independent School District,General election,2021-05-01
+TX,Pasadena Independent School District,General election,2021-05-01
+TX,Killeen Independent School District,General election,2021-05-01
+TX,Socorro Independent School District,General election,2021-05-01
+TX,Texas District 6,General election,2021-05-01
+TX,Mesquite Independent School District,General election,2021-05-01
+TX,Pflugerville Independent School District,General election,2021-05-01
+TX,Frenship Independent School District,General election,2021-05-01
+TX,Arlington,General election,2021-05-01
+TX,Frisco Independent School District,General election,2021-05-01
 TX,Humble Independent School District,General election,2021-05-01
+TX,Ysleta Independent School District,General election,2021-05-01
+TX,Crowley Independent School District,General election,2021-05-01
+TX,Coppell Independent School District,General election,2021-05-01
+TX,Allen Independent School District,General election,2021-05-01
+TX,Northside Independent School District (Bexar County),General election,2021-05-01
+TX,New Deal Independent School District,General election,2021-05-01
+TX,Highland Park Independent School District (Dallas),General election,2021-05-01
+TX,Burleson Independent School District,General election,2021-05-01
+TX,Everman Independent School District,General election,2021-05-01
+TX,Arlington Independent School District,General election,2021-05-01
+TX,Judson Independent School District,General election,2021-05-01
+TX,Castleberry Independent School District,General election,2021-05-01
+TX,El Paso County,General election,2021-05-01
+TX,Galena Park Independent School District,General election,2021-05-01
+TX,Alamo Heights Independent School District,General election,2021-05-01
+TX,Tarrant County,General election,2021-05-01
+TX,Duncanville Independent School District,General election,2021-05-01
+TX,Northwest Independent School District,General election,2021-05-01
+TX,Lancaster Independent School District,General election,2021-05-01
+TX,Amarillo Independent School District,General election,2021-05-01
+TX,Garland Independent School District,General election,2021-05-01
+TX,Roosevelt Independent School District,General election,2021-05-01
+TX,Kennedale Independent School District,General election,2021-05-01
+TX,Lubbock,Special election,2021-05-01
+TX,Mansfield Independent School District,General election,2021-05-01
+TX,Plano,General election,2021-05-01
+TX,Carrollton-Farmers Branch Independent School District,General election,2021-05-01
+TX,San Antonio,General election,2021-05-01
+TX,Katy Independent School District,General election,2021-05-01
+TX,Irving Independent School District,General election,2021-05-01
 TX,Fort Worth Independent School District,General election,2021-05-01
 TX,Lewisville Independent School District,General election,2021-05-01
-TX,Allen Independent School District,General election,2021-05-01
-TX,Irving,General election,2021-05-01
-TX,Northside Independent School District (Bexar County),General election,2021-05-01
-TX,Everman Independent School District,General election,2021-05-01
+TX,Grand Prairie Independent School District,General election,2021-05-01
+TX,Eagle Mountain-Saginaw Independent School District,General election,2021-05-01
 TX,Aransas County Independent School District,General election,2021-05-01
-TX,San Antonio Independent School District,General election,2021-05-01
-TX,Garland,General election,2021-05-01
+TX,Irving,General election,2021-05-01
+TX,Clear Creek Independent School District,General election,2021-05-01
 TX,Southwest Independent School District,General election,2021-05-01
-TX,Frisco Independent School District,General election,2021-05-01
-TX,Highland Park Independent School District (Dallas),General election,2021-05-01
 TX,Eanes Independent School District,General election,2021-05-01
 TX,Port Aransas Independent School District,General election,2021-05-01
+TX,Forney Independent School District,General election,2021-05-01
+TX,Plano Independent School District,General election,2021-05-01
 TX,Hurst-Euless-Bedford Independent School District,General election,2021-05-01
 TX,Keller Independent School District,General election,2021-05-01
 TX,Hays Consolidated Independent School District,General election,2021-05-01
-TX,Carrollton-Farmers Branch Independent School District,General election,2021-05-01
-TX,Galena Park Independent School District,General election,2021-05-01
-TX,El Paso Independent School District,General election,2021-05-01
-TX,Irving Independent School District,General election,2021-05-01
-TX,Austin,Special election,2021-05-01
-TX,Alamo Heights Independent School District,General election,2021-05-01
-TX,Tarrant County,General election,2021-05-01
-TX,Clear Creek Independent School District,General election,2021-05-01
-TX,Fort Bend Independent School District,General election,2021-05-01
-TX,Arlington Independent School District,General election,2021-05-01
-TX,Rockwall Independent School District,General election,2021-05-01
-TX,Richardson Independent School District,General election,2021-05-01
-TX,Spring Branch Independent School District,General election,2021-05-01
-TX,Collin County,General election,2021-05-01
-TX,Judson Independent School District,General election,2021-05-01
-TX,Ector County Independent School District,General election,2021-05-01
-TX,Pasadena Independent School District,General election,2021-05-01
-TX,Burleson Independent School District,General election,2021-05-01
-TX,Kennedale Independent School District,General election,2021-05-01
-TX,Plano,General election,2021-05-01
-TX,New Deal Independent School District,General election,2021-05-01
-TX,Castleberry Independent School District,General election,2021-05-01
-TX,Mesquite Independent School District,General election,2021-05-01
-TX,Fort Worth (Full and Limited),General election,2021-05-01
-TX,Mansfield Independent School District,General election,2021-05-01
-TX,Harlandale Independent School District,General election,2021-05-01
-TX,Crowley Independent School District,General election,2021-05-01
-TX,Lubbock,Special election,2021-05-01
-TX,El Paso County,General election,2021-05-01
-TX,Garland Independent School District,General election,2021-05-01
-TX,Roosevelt Independent School District,General election,2021-05-01
-TX,San Antonio,General election,2021-05-01
-TX,Dallas,General election,2021-05-01
-TX,Ysleta Independent School District,General election,2021-05-01
-TX,Duncanville Independent School District,General election,2021-05-01
-TX,Tuloso-Midway Independent School District,General election,2021-05-01
-TX,Grand Prairie Independent School District,General election,2021-05-01
-TX,Frenship Independent School District,General election,2021-05-01
-TX,Eagle Mountain-Saginaw Independent School District,General election,2021-05-01
-TX,Pflugerville Independent School District,General election,2021-05-01
-TX,Southside Independent School District,General election,2021-05-01
-TX,Texas District 6,General election,2021-05-01
-TX,Lancaster Independent School District,General election,2021-05-01
-TX,Amarillo Independent School District,General election,2021-05-01
-TX,Dallas Independent School District,General election,2021-05-01
-TX,Arlington,General election,2021-05-01
-TX,Socorro Independent School District,General election,2021-05-01
-TX,Plano Independent School District,General election,2021-05-01
-TX,Northwest Independent School District,General election,2021-05-01
-TX,Killeen Independent School District,General election,2021-05-01
-TX,Forney Independent School District,General election,2021-05-01
+TX,Dallas,General runoff election,2021-06-05
 TX,Castleberry Independent School District,General runoff election,2021-06-05
-TX,Richardson Independent School District,General runoff election,2021-06-05
+TX,Fort Worth,General runoff election,2021-06-05
 TX,Plano,General runoff election,2021-06-05
+TX,Fort Worth Independent School District school board District 9,General runoff election,2021-06-05
+TX,Mansfield Independent School District,General runoff election,2021-06-05
+TX,Richardson Independent School District,General runoff election,2021-06-05
+TX,Garland,General runoff election,2021-06-05
 TX,Tarrant County College District Board of Trustees,General runoff election,2021-06-05
 TX,San Antonio,General runoff election,2021-06-05
-TX,Dallas,General runoff election,2021-06-05
 TX,El Paso Independent School District Board of Trustees District 5,General runoff election,2021-06-05
-TX,Fort Worth,General runoff election,2021-06-05
-TX,Mansfield Independent School District,General runoff election,2021-06-05
-TX,Garland,General runoff election,2021-06-05
 TX,Arlington,General runoff election,2021-06-05
-TX,Fort Worth Independent School District school board District 9,General runoff election,2021-06-05
 TX,Texas District 6,General runoff election,2021-07-27
-TX,Aldine Independent School District filing deadline,Ballot access,2021-08-16
-TX,Harris County filing deadline,Ballot access,2021-08-16
 TX,Houston Independent School District filing deadline,Ballot access,2021-08-16
-TX,Cypress-Fairbanks Independent School District filing deadline,Ballot access,2021-08-16
 TX,Alief Independent School District filing deadline,Ballot access,2021-08-16
+TX,Cypress-Fairbanks Independent School District filing deadline,Ballot access,2021-08-16
+TX,Harris County filing deadline,Ballot access,2021-08-16
+TX,Aldine Independent School District filing deadline,Ballot access,2021-08-16
 TX,Texas,General election,2021-11-02
 UT,Salt Lake City municipal filing deadline,Ballot access,2021-08-17
 UT,Salt Lake City,General election,2021-11-02
 VT,Montpelier municipal filing deadline,Ballot access,2021-01-25
-VT,Burlington,General election,2021-03-02
 VT,Montpelier,General election,2021-03-02
+VT,Burlington,General election,2021-03-02
 VA,Virginia House of Delegates District 2,Special election,2021-01-05
 VA,Virginia House of Delegates District 90,Special election,2021-01-05
 VA,Filing deadline for Virginia State Senate District 38 special election,Ballot access,2021-01-22
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 53,Ballot access,2021-03-07
 VA,Virginia State Senate District 38,Special election,2021-03-23
-VA,Virginia House of Delegates District 26,Primary election,2021-03-25
 VA,Filing deadline for Virginia primary election,Ballot access,2021-03-25
+VA,Virginia House of Delegates District 26,Primary election,2021-03-25
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 36,Ballot access,2021-04-03
-VA,Filing deadline for Republican convention for Virginia House of Delegates District 41,Ballot access,2021-04-10
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 40,Ballot access,2021-04-10
+VA,Filing deadline for Republican convention for Virginia House of Delegates District 41,Ballot access,2021-04-10
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 37,Ballot access,2021-04-10
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 46,Ballot access,2021-04-20
 VA,Filing deadline for Republican convention for Virginia House of Delegates District 45,Ballot access,2021-04-20
 VA,Virginia House of Delegates District 93,Primary election,2021-04-22
-VA,Virginia House of Delegates District 88,Primary election,2021-04-24
 VA,Virginia House of Delegates District 7,Primary election,2021-04-24
+VA,Virginia House of Delegates District 88,Primary election,2021-04-24
+VA,Virginia House of Delegates District 11,Primary election,2021-04-24
+VA,Virginia House of Delegates District 16,Primary election,2021-04-24
 VA,Virginia House of Delegates District 69,Primary election,2021-04-24
 VA,Virginia House of Delegates District 36,Primary election,2021-04-24
-VA,Virginia House of Delegates District 16,Primary election,2021-04-24
-VA,Virginia House of Delegates District 11,Primary election,2021-04-24
 VA,Virginia House of Delegates District 53,Primary election,2021-04-26
 VA,Virginia House of Delegates District 12,Primary election,2021-04-27
-VA,Virginia House of Delegates District 50,Primary election,2021-05-01
-VA,Virginia House of Delegates District 40,Primary election,2021-05-01
 VA,Virginia House of Delegates District 37,Primary election,2021-05-01
-VA,Virginia House of Delegates District 41,Primary election,2021-05-01
 VA,Virginia House of Delegates District 61,Primary election,2021-05-01
+VA,Virginia House of Delegates District 50,Primary election,2021-05-01
+VA,Virginia House of Delegates District 41,Primary election,2021-05-01
+VA,Virginia House of Delegates District 40,Primary election,2021-05-01
 VA,Virginia,Primary election,2021-05-08
 VA,Virginia House of Delegates District 46,Primary election,2021-05-15
-VA,Virginia House of Delegates District 22,Primary election,2021-05-15
 VA,Virginia House of Delegates District 45,Primary election,2021-05-15
 VA,Virginia House of Delegates District 23,Primary election,2021-05-15
+VA,Virginia House of Delegates District 22,Primary election,2021-05-15
 VA,Virginia House of Delegates District 97,Primary election,2021-05-29
 VA,Virginia House of Delegates District 54,Primary election,2021-06-01
-VA,Virginia House of Delegates District 33,Primary election,2021-06-05
 VA,Virginia House of Delegates District 82,Primary election,2021-06-05
-VA,Virginia House of Delegates District 17,Primary election,2021-06-06
+VA,Virginia House of Delegates District 33,Primary election,2021-06-05
+VA,Virginia House of Delegates District 19,Primary election,2021-06-05
 VA,Virginia House of Delegates District 2,Primary election,2021-06-06
+VA,Virginia House of Delegates District 57,Primary election,2021-06-06
+VA,Virginia House of Delegates District 17,Primary election,2021-06-06
 VA,Virginia,Primary election,2021-06-08
 VA,Virginia House of Delegates District 29,Primary election,2021-06-10
 VA,Independent/third party filing deadline for Virginia general election,Ballot access,2021-08-13
 VA,Virginia,General election,2021-11-02
+WA,Seattle municipal filing deadline,Ballot access,2021-05-21
 WA,Seattle School District filing deadline,Ballot access,2021-05-21
 WA,Filing deadline for Washington primary election,Ballot access,2021-05-21
-WA,Seattle municipal filing deadline,Ballot access,2021-05-21
 WA,Washington,Primary election,2021-08-03
 WA,Washington,General election,2021-11-02
-WI,Verona Area School District filing deadline,Ballot access,2021-01-05
-WI,Sun Prairie Area School District filing deadline,Ballot access,2021-01-05
 WI,Madison Metropolitan School District filing deadline,Ballot access,2021-01-05
 WI,DeForest Area School District filing deadline,Ballot access,2021-01-05
 WI,Middleton-Cross Plains School District filing deadline,Ballot access,2021-01-05
 WI,McFarland School District filing deadline,Ballot access,2021-01-05
 WI,Filing deadline for Wisconsin spring primary election,Ballot access,2021-01-05
+WI,Verona Area School District filing deadline,Ballot access,2021-01-05
 WI,Milwaukee Public Schools filing deadline,Ballot access,2021-01-05
+WI,Sun Prairie Area School District filing deadline,Ballot access,2021-01-05
 WI,Filing deadline for Wisconsin SD13 special election.,Ballot access,2021-01-08
 WI,Filing deadline for Wisconsin HD89 special primary election.,Ballot access,2021-01-08
 WI,Wisconsin,Primary election,2021-02-16
@@ -709,5 +714,5 @@ WI,Filing deadline for Wisconsin State Assembly District 37 special election,Bal
 WI,Filing deadline for Dane County Board of Supervisors District 19 special election.,Ballot access,2021-05-21
 WI,Dane County Supervisor District 19,Primary election,2021-06-15
 WI,Wisconsin State Assembly District 37,Primary election,2021-06-15
-WI,Wisconsin State Assembly District 37,Special election,2021-07-13
 WI,Dane County Supervisor District 19,Special election,2021-07-13
+WI,Wisconsin State Assembly District 37,Special election,2021-07-13
