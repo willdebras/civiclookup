@@ -2,8 +2,8 @@ STATE,DESCRIPTION,TYPE,DATE
 AL,Alabama House of Representatives District 63,Special election,2022-02-01
 AL,Arkansas primary candidate filing deadline,Ballot access,2022-03-01
 AL,Alabama House of Representatives District 76,Special election,2022-03-01
-AL,Independent candidate filing deadline for Alabama statewide general election,Ballot access,2022-05-24
 AL,Alabama,Primary election,2022-05-24
+AL,Independent candidate filing deadline for Alabama statewide general election,Ballot access,2022-05-24
 AL,Alabama,Primary runoff election,2022-06-21
 AL,Alabama,General election,2022-11-08
 AK,"Filing deadline for Anchorage, Alaska",Ballot access,2022-01-28
@@ -20,19 +20,19 @@ AR,Arkansas,Primary election,2022-05-24
 AR,Arkansas,Primary runoff election,2022-06-21
 AR,"Filing deadline for Little Rock, Arkansas",Ballot access,2022-08-10
 AR,Arkansas,General election,2022-11-08
-CA,Filing deadline for West Park Elementary special election,Ballot access,2022-01-14
 CA,Filing deadline for Fresno Unified special election,Ballot access,2022-01-14
+CA,Filing deadline for West Park Elementary special election,Ballot access,2022-01-14
 CA,Shasta County,Recall election,2022-02-01
-CA,San Francisco,Special election,2022-02-15
-CA,California State Assembly District 17,Special election,2022-02-15
 CA,California State Assembly District 49,Special election,2022-02-15
+CA,California State Assembly District 17,Special election,2022-02-15
+CA,San Francisco,Special election,2022-02-15
 CA,"Filing deadline for Los Angeles, California",Ballot access,2022-03-09
 CA,"Filing deadline for San Diego, California",Ballot access,2022-03-10
 CA,California statewide filing deadline,Ballot access,2022-03-11
-CA,West Park Elementary School District,Special election,2022-04-12
 CA,Fresno Unified Board of Education Trustee Area 5,Special election,2022-04-12
-CA,California State Assembly District 49,Special election,2022-04-19
+CA,West Park Elementary School District,Special election,2022-04-12
 CA,California State Assembly District 17,Special election,2022-04-19
+CA,California State Assembly District 49,Special election,2022-04-19
 CA,California,Primary election,2022-06-07
 CA,San Francisco,Recall election,2022-06-07
 CA,"Filing deadline for Anaheim, Bakersfield, Fremont, Irvine, Oakland, Santa Ana, and Santa Clarita, California",Ballot access,2022-08-12
@@ -47,6 +47,8 @@ CT,Connecticut statewide partisan candidate filing deadline,Ballot access,2022-0
 CT,Connecticut,Primary election,2022-08-09
 CT,Connecticut statewide nominating petition candidate filing deadline,Ballot access,2022-08-10
 CT,Connecticut,General election,2022-11-08
+DE,Delaware filing deadline for primary candidates,Ballot access,2022-07-12
+DE,Delaware filing deadline for unaffiliated candidates,Ballot access,2022-09-01
 DE,Delaware,Primary election,2022-09-13
 DE,Delaware,General election,2022-11-08
 FL,Florida House of Representatives District 88,Special election,2022-01-11
@@ -61,8 +63,8 @@ FL,"Judicial filing deadline for Jacksonville and Hillsborough, Miami-Dade, Oran
 FL,Florida statewide candidate filing deadline,Ballot access,2022-06-17
 FL,Florida,Primary election,2022-08-23
 FL,Florida,General election,2022-11-08
-GA,Georgia,General runoff election,2022-03-11
 GA,Georgia partisan candidate filing deadline,Ballot access,2022-03-11
+GA,Georgia,General runoff election,2022-03-11
 GA,Georgia,Primary election,2022-05-24
 GA,Georgia,Primary runoff election,2022-06-21
 GA,Georgia unaffiliated candidate filing deadline,Ballot access,2022-07-12
@@ -87,11 +89,14 @@ IA,Iowa,Primary election,2022-06-07
 IA,Iowa,General election,2022-11-08
 KS,Kansas,Primary election,2022-08-02
 KS,Kansas,General election,2022-11-08
-KY,Kentucky primary filing deadline (partisan candidates),Ballot access,2022-01-07
+KY,Kentucky primary filing deadline (partisan candidates),Ballot access,2022-01-25
 KY,Kentucky House of Representatives District 42,Special election,2022-02-02
 KY,Kentucky,Primary election,2022-05-17
 KY,Kentucky general election filing deadline (unaffiliated candidates),Ballot access,2022-06-07
 KY,Kentucky,General election,2022-11-08
+LA,Special filing deadline for Baton Rouge,Ballot access,2022-01-28
+LA,Baton Rouge,Primary election,2022-03-26
+LA,Baton Rouge,General election,2022-04-30
 LA,Louisiana statewide filing deadline,Ballot access,2022-07-22
 LA,Louisiana,Primary election,2022-11-08
 LA,Louisiana,General election,2022-12-10
@@ -106,19 +111,22 @@ MA,Massachusetts State Senate 1st Suffolk and Middlesex District,Special electio
 MA,"Filing deadline for Suffolk County, Massachusetts",Ballot access,2022-05-31
 MA,Massachusetts,Primary election,2022-09-20
 MA,Massachusetts,General election,2022-11-08
-MI,Filing deadline for MI HD74 special election,Ballot access,2022-01-07
 MI,Filing deadline for MI HD43 special election,Ballot access,2022-01-07
+MI,Filing deadline for MI HD74 special election,Ballot access,2022-01-07
+MI,Major party filing deadline for MI HD15 special election,Ballot access,2022-01-07
 MI,Filing deadline for MI HD36 special election,Ballot access,2022-01-07
 MI,Independent filing deadline for MI HD74 special election,Ballot access,2022-02-02
 MI,Independent filing deadline for MI HD43 special election,Ballot access,2022-02-02
 MI,Independent party filing deadline for MI HD36 special election,Ballot access,2022-02-02
-MI,Michigan House of Representatives District 43,Primary election,2022-03-01
 MI,Michigan House of Representatives District 74,Primary election,2022-03-01
+MI,Michigan House of Representatives District 43,Primary election,2022-03-01
 MI,Michigan House of Representatives District 36,Primary election,2022-03-01
+MI,Michigan House of Representatives District 15,Special election,2022-03-01
 MI,Michigan partisan candidate filing deadline,Ballot access,2022-04-19
-MI,Michigan House of Representatives District 43,Special election,2022-05-03
 MI,Michigan House of Representatives District 36,Special election,2022-05-03
 MI,Michigan House of Representatives District 74,Special election,2022-05-03
+MI,Michigan House of Representatives District 15,Special election,2022-05-03
+MI,Michigan House of Representatives District 43,Special election,2022-05-03
 MI,Michigan no party affiliation candidate filing deadline,Ballot access,2022-07-21
 MI,Michigan,Primary election,2022-08-02
 MI,Michigan,General election,2022-11-08
@@ -132,8 +140,8 @@ MS,"Judicial filing deadline for St. Louis, Missouri",Ballot access,2022-08-02
 MS,Mississippi,General election,2022-11-08
 MS,Mississippi,General runoff election,2022-11-29
 MO,Missouri partisan candidate filing deadline,Ballot access,2022-03-29
-MO,Jefferson City,General election,2022-04-05
 MO,Clay County,General election,2022-04-05
+MO,Jefferson City,General election,2022-04-05
 MO,Missouri independent and new party candidate filing deadline,Ballot access,2022-08-01
 MO,Missouri,Primary election,2022-08-02
 MO,Missouri,General election,2022-11-08
@@ -141,10 +149,11 @@ MT,Montana primary election candidates filing deadline,Ballot access,2022-03-14
 MT,Montana independent and minor party candidate filing deadline,Ballot access,2022-06-06
 MT,Montana,Primary election,2022-06-07
 MT,Montana,General election,2022-11-08
-NE,Waverly School District School Board Ward 4,Recall election,2022-01-11
 NE,Leyton Public Schools,Recall election,2022-01-11
-NE,Partisan candidate filing deadline,Ballot access,2022-02-15
+NE,Waverly School District School Board Ward 4,Recall election,2022-01-11
 NE,Giltner Public Schools,Recall election,2022-02-15
+NE,Partisan candidate filing deadline,Ballot access,2022-02-15
+NE,Alvo,Recall election,2022-02-15
 NE,Nebraska,Primary election,2022-05-10
 NE,Independent and minor party candidate filing deadline,Ballot access,2022-09-01
 NE,Nebraska,General election,2022-11-08
@@ -189,6 +198,7 @@ OR,Oregon statewide minor party and independent candidate filing deadline,Ballot
 OR,Oregon,General election,2022-11-08
 PA,Pennsylvania,Primary election,2022-05-17
 PA,Pennsylvania,General election,2022-11-08
+RI,"Filing deadline for Providence, Rhode Island",Ballot access,2022-06-29
 RI,Rhode Island,Primary election,2022-09-13
 RI,Rhode Island,Primary runoff election,2022-09-24
 RI,Rhode Island,General election,2022-11-08
@@ -216,7 +226,7 @@ TX,Texas,Special election,2022-05-07
 TX,Texas,Primary runoff election,2022-05-24
 TX,Texas unaffiliated candidates filing deadline,Ballot access,2022-08-22
 TX,Texas,General election,2022-11-08
-UT,Utah statewide candidate filing deadline,Ballot access,2022-03-17
+UT,Utah statewide candidate filing deadline,Ballot access,2022-03-11
 UT,Utah,Primary election,2022-06-28
 UT,Utah,General election,2022-11-08
 VT,"Filing deadline for Montpelier, Vermont",Ballot access,2022-01-24
