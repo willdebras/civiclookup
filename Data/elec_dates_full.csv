@@ -1,5 +1,5 @@
 STATE,DESCRIPTION,TYPE,DATE
-AL,Partisan candidate filing deadline for Alabama statewide primary,Ballot access,2022-01-28
+AL,Alabama school board filing deadline,Ballot access,2022-01-28
 AL,Alabama House of Representatives District 63,Special election,2022-02-01
 AL,Arkansas primary candidate filing deadline,Ballot access,2022-03-01
 AL,Alabama House of Representatives District 76,Special election,2022-03-01
@@ -7,8 +7,8 @@ AL,Independent candidate filing deadline for Alabama statewide general election,
 AL,Alabama,Primary election,2022-05-24
 AL,Alabama,Primary runoff election,2022-06-21
 AL,Alabama,General election,2022-11-08
-AK,"Filing deadline for Anchorage, Alaska",Ballot access,2022-01-28
 AK,Anchorage school board filing deadline,Ballot access,2022-01-28
+AK,"Filing deadline for Anchorage, Alaska",Ballot access,2022-01-28
 AK,Anchorage,General election,2022-04-05
 AK,Alaska,Primary election,2022-08-16
 AK,Alaska,General election,2022-11-08
@@ -27,8 +27,8 @@ CA,Filing deadline for Fresno Unified special election,Ballot access,2022-01-14
 CA,Filing deadline for West Park Elementary special election,Ballot access,2022-01-14
 CA,Shasta County,Recall election,2022-02-01
 CA,Filing period for California State Assembly District 80 special election,Ballot access,2022-02-10
-CA,Filing deadline for U.S. House California District 22,Ballot access,2022-02-10
 CA,Filing period for California State Assembly District 11 special election,Ballot access,2022-02-10
+CA,Filing deadline for U.S. House California District 22,Ballot access,2022-02-10
 CA,San Francisco,Special election,2022-02-15
 CA,California State Assembly District 17,Special election,2022-02-15
 CA,California State Assembly District 49,Special election,2022-02-15
@@ -39,18 +39,16 @@ CA,California statewide filing deadline,Ballot access,2022-03-11
 CA,Write-in filing period for California State Assembly District 80 special election,Ballot access,2022-03-22
 CA,Write-in filing period for California State Assembly District 11 special election,Ballot access,2022-03-22
 CA,California State Assembly District 80,Special election,2022-04-05
-CA,California District 22,Primary election,2022-04-05
 CA,California State Assembly District 11,Special election,2022-04-05
+CA,California District 22,Primary election,2022-04-05
 CA,Fresno Unified Board of Education Trustee Area 5,Special election,2022-04-12
+CA,Moreno Valley Unified Board of Education Trustee Area 5,Special election,2022-04-12
 CA,West Park Elementary School District,Special election,2022-04-12
 CA,California State Assembly District 17,Special election,2022-04-19
 CA,California State Assembly District 49,Special election,2022-04-19
-CA,San Francisco,Recall election,2022-06-07
-CA,California State Assembly District 80,Special election,2022-06-07
 CA,California,Primary election,2022-06-07
-CA,California State Assembly District 11,Special election,2022-06-07
-CA,August California school board filing deadline,Ballot access,2022-08-12
 CA,"Filing deadline for Anaheim, Bakersfield, Fremont, Irvine, Oakland, Santa Ana, and Santa Clarita, California",Ballot access,2022-08-12
+CA,August California school board filing deadline,Ballot access,2022-08-12
 CA,California,General election,2022-11-08
 CO,Colorado statewide partisan filing deadline,Ballot access,2022-03-15
 CO,Colorado,Primary election,2022-06-28
@@ -58,9 +56,12 @@ CO,Colorado statewide unaffiliated filing deadline,Ballot access,2022-07-14
 CO,Colorado,General election,2022-11-08
 CT,Write-in filing deadline for CT HD144 special election,Ballot access,2022-01-11
 CT,Special party nominating deadline for Connecticut House of Representatives District 71,Ballot access,2022-01-18
+CT,Special party nominating deadline for Connecticut House of Representatives District 71,Ballot access,2022-01-24
 CT,Connecticut House of Representatives District 144,Special election,2022-01-25
 CT,Special write-in filing deadline for Connecticut House of Representatives District 71,Ballot access,2022-02-08
+CT,Special write-in filing deadline for Connecticut House of Representatives District 71,Ballot access,2022-02-15
 CT,Connecticut House of Representatives District 71,Special election,2022-02-22
+CT,Connecticut House of Representatives District 5,Special election,2022-03-01
 CT,Connecticut statewide partisan candidate filing deadline,Ballot access,2022-06-07
 CT,Connecticut,Primary election,2022-08-09
 CT,Connecticut statewide nominating petition candidate filing deadline,Ballot access,2022-08-10
@@ -79,13 +80,13 @@ FL,Florida House of Representatives District 94,Special election,2022-03-08
 FL,Florida State Senate District 33,Special election,2022-03-08
 FL,"Judicial filing deadline for Jacksonville and Hillsborough, Miami-Dade, Orange, and Pinellas counties, Florida",Ballot access,2022-04-29
 FL,Florida school board filing deadline for petitioning candidates,Ballot access,2022-05-16
-FL,Florida school board filing deadline for candidates paying a fee,Ballot access,2022-06-17
 FL,Florida statewide candidate filing deadline,Ballot access,2022-06-17
+FL,Florida school board filing deadline for candidates paying a fee,Ballot access,2022-06-17
 FL,Florida,Primary election,2022-08-23
 FL,Florida,General election,2022-11-08
-GA,Georgia,General runoff election,2022-03-11
 GA,Georgia school board filing deadline,Ballot access,2022-03-11
 GA,Georgia partisan candidate filing deadline,Ballot access,2022-03-11
+GA,Georgia,General runoff election,2022-03-11
 GA,Georgia,Primary election,2022-05-24
 GA,Georgia,Primary runoff election,2022-06-21
 GA,Georgia unaffiliated candidate filing deadline,Ballot access,2022-07-12
@@ -114,14 +115,20 @@ KS,Kansas,General election,2022-11-08
 KY,Kentucky primary filing deadline (partisan candidates),Ballot access,2022-01-25
 KY,Kentucky House of Representatives District 42,Special election,2022-02-22
 KY,Kentucky,Primary election,2022-05-17
-KY,Kentucky general election filing deadline (unaffiliated candidates),Ballot access,2022-06-07
 KY,Kentucky school board filing deadline,Ballot access,2022-06-07
+KY,Kentucky general election filing deadline (unaffiliated candidates),Ballot access,2022-06-07
 KY,Kentucky,General election,2022-11-08
 LA,Special filing deadline for Baton Rouge,Ballot access,2022-01-28
+LA,Filing period for Louisiana 2nd Circuit Court of Appeals District 3 special election,Ballot access,2022-01-28
+LA,Filing period for Louisiana 3rd Circuit Court of Appeals District 3 special election,Ballot access,2022-01-28
+LA,Louisiana 2nd Circuit Court of Appeal 3rd District,Special election,2022-03-26
 LA,Baton Rouge,Primary election,2022-03-26
+LA,Louisiana 3rd Circuit Court of Appeal 3rd District,Special election,2022-03-26
+LA,Louisiana 3rd Circuit Court of Appeal 3rd District,Special election,2022-04-30
 LA,Baton Rouge,General election,2022-04-30
-LA,Louisiana statewide filing deadline,Ballot access,2022-07-22
+LA,Louisiana 2nd Circuit Court of Appeal 3rd District,Special election,2022-04-30
 LA,Louisiana school board filing deadline,Ballot access,2022-07-22
+LA,Louisiana statewide filing deadline,Ballot access,2022-07-22
 LA,Louisiana,Primary election,2022-11-08
 LA,Louisiana,General election,2022-12-10
 ME,Maine House of Representatives District 27,Special election,2022-01-11
@@ -129,14 +136,14 @@ ME,Maine partisan candidate filing deadline,Ballot access,2022-03-15
 ME,Maine unaffiliated candidate filing deadline,Ballot access,2022-06-01
 ME,Maine,Primary election,2022-06-14
 ME,Maine,General election,2022-11-08
-MD,Maryland school board filing deadline,Ballot access,2022-02-22
 MD,Maryland statewide primary candidate filing deadline,Ballot access,2022-02-22
+MD,Maryland school board filing deadline,Ballot access,2022-02-22
 MD,Maryland,Primary election,2022-06-28
 MD,Maryland general election candidate filing deadline,Ballot access,2022-08-01
 MD,Maryland,General election,2022-11-08
 MA,Massachusetts State Senate 1st Suffolk and Middlesex District,Special election,2022-01-11
-MA,"Filing deadline for Suffolk County, Massachusetts",Ballot access,2022-05-31
 MA,Massachusetts primary candidates filing deadline,Ballot access,2022-05-31
+MA,"Filing deadline for Suffolk County, Massachusetts",Ballot access,2022-05-31
 MA,Massachusetts filing deadline for minor party and unenrolled candidates,Ballot access,2022-08-30
 MA,Massachusetts,Primary election,2022-09-20
 MA,Massachusetts,General election,2022-11-08
@@ -144,24 +151,24 @@ MI,Major party filing deadline for MI HD15 special election,Ballot access,2022-0
 MI,Filing deadline for MI HD43 special election,Ballot access,2022-01-07
 MI,Filing deadline for MI HD36 special election,Ballot access,2022-01-07
 MI,Filing deadline for MI HD74 special election,Ballot access,2022-01-07
-MI,Independent filing deadline for MI HD43 special election,Ballot access,2022-02-02
 MI,Independent party filing deadline for MI HD36 special election,Ballot access,2022-02-02
+MI,Independent filing deadline for MI HD43 special election,Ballot access,2022-02-02
 MI,Independent filing deadline for MI HD74 special election,Ballot access,2022-02-02
 MI,Michigan House of Representatives District 15,Special election,2022-03-01
 MI,Michigan House of Representatives District 74,Primary election,2022-03-01
 MI,Michigan House of Representatives District 36,Primary election,2022-03-01
 MI,Michigan House of Representatives District 43,Primary election,2022-03-01
 MI,Michigan partisan candidate filing deadline,Ballot access,2022-04-19
-MI,Michigan House of Representatives District 74,Special election,2022-05-03
-MI,Michigan House of Representatives District 15,Special election,2022-05-03
 MI,Michigan House of Representatives District 43,Special election,2022-05-03
+MI,Michigan House of Representatives District 15,Special election,2022-05-03
 MI,Michigan House of Representatives District 36,Special election,2022-05-03
+MI,Michigan House of Representatives District 74,Special election,2022-05-03
 MI,Michigan no party affiliation candidate filing deadline,Ballot access,2022-07-21
 MI,Michigan school board filing deadline,Ballot access,2022-07-26
 MI,Michigan,Primary election,2022-08-02
 MI,Michigan,General election,2022-11-08
-MN,Minneapolis Public Schools filing deadline,Ballot access,2022-05-31
 MN,Minnesota statewide filing deadline,Ballot access,2022-05-31
+MN,Minneapolis Public Schools filing deadline,Ballot access,2022-05-31
 MN,Minnesota,Primary election,2022-08-09
 MN,Minnesota,General election,2022-11-08
 MS,Mississippi candidate filing deadline,Ballot access,2022-03-01
@@ -171,15 +178,15 @@ MS,"Judicial filing deadline for St. Louis, Missouri",Ballot access,2022-08-02
 MS,Mississippi,General election,2022-11-08
 MS,Mississippi,General runoff election,2022-11-29
 MO,Missouri partisan candidate filing deadline,Ballot access,2022-03-29
+MO,Grandview C-4 School District,General election,2022-04-05
+MO,Raytown C-2 School District,General election,2022-04-05
 MO,Center School District,General election,2022-04-05
+MO,Park Hill School District,General election,2022-04-05
 MO,St. Joseph School District,General election,2022-04-05
+MO,Hickman Mills C-1 School District,General election,2022-04-05
 MO,Jefferson City,General election,2022-04-05
 MO,Platte County R-III School District,General election,2022-04-05
-MO,Park Hill School District,General election,2022-04-05
-MO,Raytown C-2 School District,General election,2022-04-05
 MO,Clay County,General election,2022-04-05
-MO,Hickman Mills C-1 School District,General election,2022-04-05
-MO,Grandview C-4 School District,General election,2022-04-05
 MO,Missouri independent and new party candidate filing deadline,Ballot access,2022-08-01
 MO,Missouri,Primary election,2022-08-02
 MO,Missouri,General election,2022-11-08
@@ -190,16 +197,16 @@ MT,Montana,General election,2022-11-08
 NE,Waverly School District School Board Ward 4,Recall election,2022-01-11
 NE,Leyton Public Schools,Recall election,2022-01-11
 NE,Westside Community Schools filing deadline,Ballot access,2022-02-01
-NE,Giltner Public Schools,Recall election,2022-02-15
 NE,Partisan candidate filing deadline,Ballot access,2022-02-15
+NE,Giltner Public Schools,Recall election,2022-02-15
 NE,Nebraska incumbent school board filing deadline,Ballot access,2022-02-15
 NE,Alvo,Recall election,2022-02-15
 NE,Nebraska non-incumbent school board filing deadline,Ballot access,2022-03-01
 NE,Nebraska,Primary election,2022-05-10
 NE,Independent and minor party candidate filing deadline,Ballot access,2022-09-01
 NE,Nebraska,General election,2022-11-08
-NV,Nevada statewide candidate filing deadline,Ballot access,2022-03-18
 NV,Nevada school board filing deadline,Ballot access,2022-03-18
+NV,Nevada statewide candidate filing deadline,Ballot access,2022-03-18
 NV,Nevada,Primary election,2022-06-14
 NV,Nevada,General election,2022-11-08
 NH,New Hampshire,Primary election,2022-09-13
@@ -209,13 +216,12 @@ NJ,New Jersey,General election,2022-11-08
 NM,New Mexico,Primary election,2022-06-07
 NM,New Mexico,General election,2022-11-08
 NY,Filing period for New York State Assembly District 60 special election,Ballot access,2022-01-18
-NY,Filing period for New York State Assembly District 72 special election,Ballot access,2022-01-18
 NY,New York State Assembly District 68,Special election,2022-01-18
-NY,New York State Assembly District 72,Special election,2022-02-15
+NY,Filing period for New York State Assembly District 72 special election,Ballot access,2022-01-18
 NY,New York State Assembly District 60,Special election,2022-02-15
+NY,New York State Assembly District 72,Special election,2022-02-15
 NY,New York,Primary election,2022-06-28
 NY,New York,General election,2022-11-08
-NC,Charlotte,Primary election,2022-03-08
 NC,Greensboro,Primary election,2022-03-08
 NC,Charlotte,General election,2022-04-26
 NC,North Carolina,Primary election,2022-05-17
@@ -232,69 +238,72 @@ OH,Ohio congressional candidate filing deadline,Ballot access,2022-03-04
 OH,Ohio filing deadline for independent candidates,Ballot access,2022-05-02
 OH,Ohio,Primary election,2022-05-03
 OH,Ohio,General election,2022-11-08
-OK,Broken Arrow Public Schools,Primary election,2022-02-08
-OK,Edmond Public Schools,Primary election,2022-02-08
-OK,Midwest City-Del City Schools,Primary election,2022-02-08
-OK,Moore Public Schools,Primary election,2022-02-08
-OK,McLoud Public Schools,Primary election,2022-02-08
-OK,Banner School District,Primary election,2022-02-08
-OK,Putnam City Schools,Primary election,2022-02-08
-OK,Jenks Public Schools,Primary election,2022-02-08
-OK,Millwood Public Schools,Primary election,2022-02-08
-OK,Piedmont Public Schools,Primary election,2022-02-08
-OK,Jones Public Schools,Primary election,2022-02-08
-OK,Bixby Public Schools,Primary election,2022-02-08
-OK,Union Public Schools,Primary election,2022-02-08
-OK,Yukon Public Schools,Primary election,2022-02-08
-OK,Tulsa Public Schools,Primary election,2022-02-08
-OK,Oakdale Public School,Primary election,2022-02-08
-OK,Owasso Public Schools,Primary election,2022-02-08
-OK,Oklahoma City,General election,2022-02-08
-OK,Luther Public Schools,Primary election,2022-02-08
-OK,Mustang Public Schools,Primary election,2022-02-08
-OK,Catoosa Public Schools,Primary election,2022-02-08
-OK,Deer Creek Public Schools,Primary election,2022-02-08
-OK,Little Axe Public Schools,Primary election,2022-02-08
-OK,Crooked Oak Public Schools,Primary election,2022-02-08
-OK,Oklahoma City Public Schools,Primary election,2022-02-08
 OK,Western Heights Public Schools,Primary election,2022-02-08
+OK,Yukon Public Schools,Primary election,2022-02-08
+OK,Crooked Oak Public Schools,Primary election,2022-02-08
+OK,Owasso Public Schools,Primary election,2022-02-08
+OK,Oklahoma City Public Schools,Primary election,2022-02-08
 OK,Crutcho Public Schools,Primary election,2022-02-08
-OK,Little Axe Public Schools,General election,2022-04-05
-OK,Putnam City Schools,General election,2022-04-05
-OK,Union Public Schools,General election,2022-04-05
-OK,Jenks Public Schools,General election,2022-04-05
-OK,Broken Arrow Public Schools,General election,2022-04-05
-OK,Luther Public Schools,General election,2022-04-05
-OK,Oklahoma City Public Schools,General election,2022-04-05
-OK,Mustang Public Schools,General election,2022-04-05
-OK,Oklahoma City,General runoff election,2022-04-05
-OK,Oakdale Public School,General election,2022-04-05
-OK,Edmond Public Schools,General election,2022-04-05
-OK,Bixby Public Schools,General election,2022-04-05
-OK,Millwood Public Schools,General election,2022-04-05
-OK,Banner School District,General election,2022-04-05
-OK,Jones Public Schools,General election,2022-04-05
-OK,Tulsa Public Schools,General election,2022-04-05
-OK,Moore Public Schools,General election,2022-04-05
-OK,Crutcho Public Schools,General election,2022-04-05
+OK,Union Public Schools,Primary election,2022-02-08
+OK,Jones Public Schools,Primary election,2022-02-08
+OK,Luther Public Schools,Primary election,2022-02-08
+OK,Oakdale Public School,Primary election,2022-02-08
+OK,Catoosa Public Schools,Primary election,2022-02-08
+OK,Broken Arrow Public Schools,Primary election,2022-02-08
+OK,Mustang Public Schools,Primary election,2022-02-08
+OK,Edmond Public Schools,Primary election,2022-02-08
+OK,Moore Public Schools,Primary election,2022-02-08
+OK,Jenks Public Schools,Primary election,2022-02-08
+OK,Midwest City-Del City Schools,Primary election,2022-02-08
+OK,McLoud Public Schools,Primary election,2022-02-08
+OK,Bixby Public Schools,Primary election,2022-02-08
+OK,Putnam City Schools,Primary election,2022-02-08
+OK,Little Axe Public Schools,Primary election,2022-02-08
+OK,Millwood Public Schools,Primary election,2022-02-08
+OK,Oklahoma City,General election,2022-02-08
+OK,Tulsa Public Schools,Primary election,2022-02-08
+OK,Banner School District,Primary election,2022-02-08
+OK,Piedmont Public Schools,Primary election,2022-02-08
+OK,Deer Creek Public Schools,Primary election,2022-02-08
 OK,Yukon Public Schools,General election,2022-04-05
-OK,Crooked Oak Public Schools,General election,2022-04-05
-OK,Catoosa Public Schools,General election,2022-04-05
+OK,Putnam City Schools,General election,2022-04-05
+OK,Mustang Public Schools,General election,2022-04-05
+OK,Millwood Public Schools,General election,2022-04-05
+OK,Oklahoma City,General runoff election,2022-04-05
+OK,Moore Public Schools,General election,2022-04-05
+OK,Little Axe Public Schools,General election,2022-04-05
+OK,Edmond Public Schools,General election,2022-04-05
+OK,Tulsa Public Schools,General election,2022-04-05
 OK,Deer Creek Public Schools,General election,2022-04-05
 OK,McLoud Public Schools,General election,2022-04-05
-OK,Midwest City-Del City Schools,General election,2022-04-05
-OK,Western Heights Public Schools,General election,2022-04-05
 OK,Piedmont Public Schools,General election,2022-04-05
+OK,Oakdale Public School,General election,2022-04-05
+OK,Broken Arrow Public Schools,General election,2022-04-05
+OK,Union Public Schools,General election,2022-04-05
+OK,Western Heights Public Schools,General election,2022-04-05
+OK,Luther Public Schools,General election,2022-04-05
+OK,Jenks Public Schools,General election,2022-04-05
+OK,Midwest City-Del City Schools,General election,2022-04-05
+OK,Bixby Public Schools,General election,2022-04-05
+OK,Catoosa Public Schools,General election,2022-04-05
+OK,Banner School District,General election,2022-04-05
+OK,Jones Public Schools,General election,2022-04-05
+OK,Oklahoma City Public Schools,General election,2022-04-05
+OK,Crooked Oak Public Schools,General election,2022-04-05
 OK,Owasso Public Schools,General election,2022-04-05
+OK,Crutcho Public Schools,General election,2022-04-05
 OK,Oklahoma statewide candidate filing deadline,Ballot access,2022-04-15
 OK,"Filing deadline for Tulsa, Oklahoma",Ballot access,2022-06-15
 OK,Oklahoma,Primary election,2022-06-28
 OK,Oklahoma,Primary runoff election,2022-08-23
 OK,Oklahoma,General election,2022-11-08
 OR,Newberg School District,Recall election,2022-01-18
+OR,Filing period for Oregon State Senate District 18 special election,Ballot access,2022-03-08
 OR,Oregon statewide primary candidate filing deadline,Ballot access,2022-03-08
+OR,Oregon State Senate District 18,Special election,2022-05-17
 OR,Oregon,Primary election,2022-05-17
 OR,Oregon statewide minor party and independent candidate filing deadline,Ballot access,2022-08-30
+OR,Oregon State Senate District 18,Special election,2022-11-08
 OR,Oregon,General election,2022-11-08
 PA,Pennsylvania primary candidates filing deadline,Ballot access,2022-03-08
 PA,Pennsylvania House of Representatives District 116,Special election,2022-04-05
@@ -332,8 +341,9 @@ TX,Texas,Primary election,2022-03-01
 TX,Austin City Council District 4,General runoff election,2022-03-22
 TX,Texas,Special election,2022-05-07
 TX,Texas,Primary runoff election,2022-05-24
-TX,Texas unaffiliated candidates filing deadline,Ballot access,2022-08-22
+TX,Fort Worth,General runoff election,2022-06-18
 TX,August Texas school board filing deadline,Ballot access,2022-08-22
+TX,Texas unaffiliated candidates filing deadline,Ballot access,2022-08-22
 TX,Texas,General election,2022-11-08
 UT,Utah statewide candidate filing deadline,Ballot access,2022-03-11
 UT,Utah,Primary election,2022-06-28
@@ -352,6 +362,7 @@ VA,Virginia,Primary election,2022-06-21
 VA,Virginia,General election,2022-11-08
 WA,King County,General election,2022-02-08
 WA,Washington candidate filing deadline,Ballot access,2022-05-20
+WA,Filing period for Washington State Senate District 27 special election,Ballot access,2022-05-20
 WA,Washington,Primary election,2022-08-02
 WA,Washington,General election,2022-11-08
 WV,West Virginia,Primary election,2022-05-10
