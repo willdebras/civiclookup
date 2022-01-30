@@ -1,10 +1,10 @@
 STATE,DATE,TYPE,COUNT
 AL,2022-01-28,Ballot access,One upcoming filing deadline.
 AL,2022-02-01,Special election,One upcoming special election date.
-AL,2022-03-01,Ballot access,One upcoming filing deadline.
+AL,2022-02-11,Ballot access,One upcoming filing deadline.
 AL,2022-03-01,Special election,One upcoming special election date.
-AL,2022-05-24,Ballot access,One upcoming filing deadline.
 AL,2022-05-24,Primary election,One upcoming primary election date.
+AL,2022-05-24,Ballot access,One upcoming filing deadline.
 AL,2022-06-21,Primary runoff election,One upcoming primary runoff election date.
 AL,2022-11-08,General election,One upcoming general election date.
 AK,2022-01-28,Ballot access,Two upcoming filing deadlines.
@@ -17,6 +17,7 @@ AZ,2022-08-02,Primary election,One upcoming primary election date.
 AZ,2022-11-08,General election,One upcoming general election date.
 AR,2022-01-11,Primary runoff election,One upcoming primary runoff election date.
 AR,2022-02-08,Special election,One upcoming special election date.
+AR,2022-03-01,Ballot access,One upcoming filing deadline.
 AR,2022-05-02,Ballot access,One upcoming filing deadline.
 AR,2022-05-24,Primary election,One upcoming primary election date.
 AR,2022-06-21,Primary runoff election,One upcoming primary runoff election date.
@@ -65,8 +66,8 @@ FL,2022-05-16,Ballot access,One upcoming filing deadline.
 FL,2022-06-17,Ballot access,Two upcoming filing deadlines.
 FL,2022-08-23,Primary election,One upcoming primary election date.
 FL,2022-11-08,General election,One upcoming general election date.
-GA,2022-03-11,Ballot access,Two upcoming filing deadlines.
 GA,2022-03-11,General runoff election,One upcoming general runoff election date.
+GA,2022-03-11,Ballot access,Two upcoming filing deadlines.
 GA,2022-05-24,Primary election,One upcoming primary election date.
 GA,2022-06-21,Primary runoff election,One upcoming primary runoff election date.
 GA,2022-07-12,Ballot access,One upcoming filing deadline.
@@ -106,8 +107,10 @@ LA,2022-07-22,Ballot access,Two upcoming filing deadlines.
 LA,2022-11-08,Primary election,One upcoming primary election date.
 LA,2022-12-10,General election,One upcoming general election date.
 ME,2022-01-11,Special election,One upcoming special election date.
+ME,2022-02-16,Ballot access,One upcoming filing deadline.
 ME,2022-03-15,Ballot access,One upcoming filing deadline.
 ME,2022-06-01,Ballot access,One upcoming filing deadline.
+ME,2022-06-14,General election,One upcoming general election date.
 ME,2022-06-14,Primary election,One upcoming primary election date.
 ME,2022-11-08,General election,One upcoming general election date.
 MD,2022-02-22,Ballot access,Two upcoming filing deadlines.
@@ -115,14 +118,15 @@ MD,2022-06-28,Primary election,One upcoming primary election date.
 MD,2022-08-01,Ballot access,One upcoming filing deadline.
 MD,2022-11-08,General election,One upcoming general election date.
 MA,2022-01-11,Special election,One upcoming special election date.
+MA,2022-01-24,Recall election,One upcoming recall election date.
 MA,2022-05-31,Ballot access,Two upcoming filing deadlines.
 MA,2022-08-30,Ballot access,One upcoming filing deadline.
 MA,2022-09-20,Primary election,One upcoming primary election date.
 MA,2022-11-08,General election,One upcoming general election date.
 MI,2022-01-07,Ballot access,Four upcoming filing deadlines.
 MI,2022-02-02,Ballot access,Three upcoming filing deadlines.
-MI,2022-03-01,Special election,One upcoming special election date.
 MI,2022-03-01,Primary election,Three upcoming primary election dates.
+MI,2022-03-01,Special election,One upcoming special election date.
 MI,2022-04-19,Ballot access,One upcoming filing deadline.
 MI,2022-05-03,Special election,Four upcoming special election dates.
 MI,2022-07-21,Ballot access,One upcoming filing deadline.
@@ -139,7 +143,7 @@ MS,2022-08-02,Ballot access,One upcoming filing deadline.
 MS,2022-11-08,General election,One upcoming general election date.
 MS,2022-11-29,General runoff election,One upcoming general runoff election date.
 MO,2022-03-29,Ballot access,One upcoming filing deadline.
-MO,2022-04-05,General election,Nine upcoming general election dates.
+MO,2022-04-05,General election,Twelve upcoming general election dates.
 MO,2022-08-01,Ballot access,One upcoming filing deadline.
 MO,2022-08-02,Primary election,One upcoming primary election date.
 MO,2022-11-08,General election,One upcoming general election date.
@@ -162,10 +166,12 @@ NH,2022-09-13,Primary election,One upcoming primary election date.
 NH,2022-11-08,General election,One upcoming general election date.
 NJ,2022-06-07,Primary election,One upcoming primary election date.
 NJ,2022-11-08,General election,One upcoming general election date.
+NM,2022-02-01,Ballot access,One upcoming filing deadline.
 NM,2022-06-07,Primary election,One upcoming primary election date.
+NM,2022-06-30,Ballot access,One upcoming filing deadline.
 NM,2022-11-08,General election,One upcoming general election date.
-NY,2022-01-18,Ballot access,Two upcoming filing deadlines.
 NY,2022-01-18,Special election,One upcoming special election date.
+NY,2022-01-18,Ballot access,Two upcoming filing deadlines.
 NY,2022-02-15,Special election,Two upcoming special election dates.
 NY,2022-06-28,Primary election,One upcoming primary election date.
 NY,2022-11-08,General election,One upcoming general election date.
@@ -196,8 +202,8 @@ OK,2022-08-23,Primary runoff election,One upcoming primary runoff election date.
 OK,2022-11-08,General election,One upcoming general election date.
 OR,2022-01-18,Recall election,One upcoming recall election date.
 OR,2022-03-08,Ballot access,Two upcoming filing deadlines.
-OR,2022-05-17,Special election,One upcoming special election date.
 OR,2022-05-17,Primary election,One upcoming primary election date.
+OR,2022-05-17,Special election,One upcoming special election date.
 OR,2022-08-30,Ballot access,One upcoming filing deadline.
 OR,2022-11-08,Special election,One upcoming special election date.
 OR,2022-11-08,General election,One upcoming general election date.
@@ -232,6 +238,7 @@ TX,2022-01-25,General election,One upcoming general election date.
 TX,2022-01-25,Special election,One upcoming special election date.
 TX,2022-02-18,Ballot access,Two upcoming filing deadlines.
 TX,2022-03-01,Primary election,One upcoming primary election date.
+TX,2022-03-07,Ballot access,One upcoming filing deadline.
 TX,2022-03-22,General runoff election,One upcoming general runoff election date.
 TX,2022-05-07,Special election,One upcoming special election date.
 TX,2022-05-24,Primary runoff election,One upcoming primary runoff election date.
